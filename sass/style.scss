@@ -1,0 +1,31 @@
+@import '_bootstrap';
+
+@import '_fonts';
+
+
+
+/*--------------------- my code begining ------------------*/
+
+
+
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+
+    @include opensans_light(15px);
+    color:#595959;
+
+	h1, h2, h3, h4 {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+}
+
+@import "_top_section";
+
+
+
