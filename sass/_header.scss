@@ -1,0 +1,234 @@
+header {
+
+	.wrapper {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 30px;
+		.logo-holder {
+
+			a {
+				display: block;
+				width: 60px;
+			}
+		}//logo-holder
+
+
+		.header-content {
+			margin-top: 95px;
+			div {
+
+
+				&:first-child {
+					padding-bottom: 50px;
+
+					h2 {
+
+						@include proxima_black(40px);
+						color:#4d4d4d;
+						text-align: left;
+						text-transform: uppercase;
+						line-height: 35px;
+						margin-bottom: 25px;
+						letter-spacing: 1px;
+					}
+
+
+					p {
+						line-height: 20px;
+
+
+					}
+
+
+					a {
+						margin-top: 60px;
+						display: block;
+						width: 100%;
+						height: 50px;
+						border: 2px solid #eb3e3b;
+						border-bottom-left-radius: 25px;
+						border-top-left-radius: 25px;
+						border-bottom-right-radius: 25px;
+						border-top-right-radius: 25px;
+						text-align: center;
+						@include opensans_bold(14px);
+						color: #454545;
+						text-transform: uppercase;
+						line-height: 48px;
+
+						&:hover {
+							text-decoration: none;
+							cursor: pointer;
+						}
+					}
+				}
+
+
+				&.photo-holder {
+
+
+
+				}
+			}
+		}
+
+	}//wrapper
+
+
+/* --------------------- media section ---------------------*/
+
+	@media (min-width:$screen-xs) {
+
+		.wrapper {
+
+			.logo-holder {
+
+				a {
+
+				}
+			}//logo-holder
+
+
+			.header-content {
+
+				div {
+
+
+					&:first-child {
+
+						h2 {
+
+
+						}
+
+
+						p {
+
+
+
+						}
+
+
+						a {
+
+
+						}
+					}
+
+
+					&.photo-holder {
+
+
+
+					}
+				}
+			}
+
+		}//wrapper
+
+	}//media xs
+
+
+	@media (min-width:$screen-sm) {
+
+		.wrapper {
+
+			.logo-holder {
+
+				a {
+
+				}
+			}//logo-holder
+
+
+			.header-content {
+
+				div {
+
+
+					&:first-child {
+
+						h2 {
+
+
+						}
+
+
+						p {
+
+
+
+						}
+
+
+						a {
+
+
+						}
+					}
+
+
+					&.photo-holder {
+
+
+
+					}
+				}
+			}
+
+		}//wrapper
+
+	}//media sm
+
+
+	@media (min-width:$screen-lg) {
+
+		.wrapper {
+
+			.logo-holder {
+
+				a {
+
+				}
+			}//logo-holder
+
+
+			.header-content {
+
+				div {
+
+
+					&:first-child {
+
+						h2 {
+
+
+						}
+
+
+						p {
+
+
+
+						}
+
+
+						a {
+
+
+						}
+					}
+
+
+					&.photo-holder {
+
+
+
+					}
+				}
+			}
+
+		}//wrapper
+
+	}//media lg
+}

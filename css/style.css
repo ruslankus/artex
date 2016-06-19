@@ -1531,6 +1531,18 @@ pre {
   src: url("/fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans-Light.woff") format("woff"), url("/fonts/OpenSans-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal; }
+@font-face {
+  font-family: 'OpenSans';
+  src: url("/fonts/OpenSans-Bold.eot");
+  src: url("/fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans-Bold.woff") format("woff"), url("/fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'ProximaNova';
+  src: url("/fonts/ProximaNova-Black.eot");
+  src: url("/fonts/ProximaNova-Black.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova-Black.woff") format("woff"), url("/fonts/ProximaNova-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
 /*--------------------- my code begining ------------------*/
 * {
   margin: 0;
@@ -1547,14 +1559,52 @@ body {
     margin-top: 0; }
 
 #top-section {
+  display: none;
+  background-color: #eb3e3b;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  overflow-y: scroll;
   /* --------------------- media section ---------------------*/ }
-  #top-section .wrapper .menu-button a {
+  #top-section .wrapper {
+    padding-top: 40px;
+    padding-left: 30px; }
+    #top-section .wrapper .menu > li {
+      display: inherit;
+      margin-bottom: 25px; }
+      #top-section .wrapper .menu > li a {
+        font-family: OpenSans, sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        color: white; }
+  @media (min-width: 480px) {
+    #top-section {
+      width: 360px; } }
+
+#main-wrapper {
+  position: relative;
+  height: 800px;
+  z-index: 20;
+  background-color: white;
+  transform: translate3d(0, 0, 0);
+  /* X, Y, Z */
+  -webkit-transform: translate3d(0, 0, 0); }
+
+#menu-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 40; }
+  #menu-button a {
     display: block;
     width: 50px;
     height: 50px;
     border: 2px solid #d7dce0;
     border-radius: 50%; }
-    #top-section .wrapper .menu-button a span {
+    #menu-button a span {
       display: block;
       width: 18px;
       margin-left: auto;
@@ -1562,9 +1612,82 @@ body {
       height: 2px;
       background-color: #d7dce0;
       margin-bottom: 4px; }
-      #top-section .wrapper .menu-button a span:first-child {
+      #menu-button a span:first-child {
         margin-top: 16px; }
-    #top-section .wrapper .menu-button a:hover {
+    #menu-button a:hover {
       border-color: #eb3e3b; }
-      #top-section .wrapper .menu-button a:hover span {
+      #menu-button a:hover span {
         background-color: #eb3e3b; }
+
+.animating #top-section {
+  display: block; }
+.animating #main-wrapper {
+  transition: transform .4s ease-in-out;
+  -webkit-transition: -webkit-transform .4s ease-in-out; }
+.animating.left #main-wrapper {
+  transform: translate3d(-100%, 0, 0);
+  -webkit-transform: translate3d(-100%, 0, 0); }
+.animating.right #main-wrapper {
+  transform: translate3d(100%, 0, 0);
+  -webkit-transform: translate3d(100%, 0, 0); }
+@media (min-width: 480px) {
+  .animating.left #main-wrapper {
+    transform: translate3d(-360px, 0, 0);
+    -webkit-transform: translate3d(-360px, 0, 0); }
+  .animating.right #main-wrapper {
+    transform: translate3d(360px, 0, 0);
+    -webkit-transform: translate3d(360px, 0, 0); } }
+
+.menu-visible #main-wrapper {
+  right: 100%; }
+.menu-visible #top-section {
+  display: block; }
+@media (min-width: 480px) {
+  .menu-visible #main-wrapper {
+    right: 360px; } }
+
+header {
+  /* --------------------- media section ---------------------*/ }
+  header .wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px; }
+    header .wrapper .logo-holder a {
+      display: block;
+      width: 60px; }
+    header .wrapper .header-content {
+      margin-top: 95px; }
+      header .wrapper .header-content div:first-child {
+        padding-bottom: 50px; }
+        header .wrapper .header-content div:first-child h2 {
+          font-family: ProximaNova, sans-serif;
+          font-weight: 900;
+          font-size: 40px;
+          color: #4d4d4d;
+          text-align: left;
+          text-transform: uppercase;
+          line-height: 35px;
+          margin-bottom: 25px;
+          letter-spacing: 1px; }
+        header .wrapper .header-content div:first-child p {
+          line-height: 20px; }
+        header .wrapper .header-content div:first-child a {
+          margin-top: 60px;
+          display: block;
+          width: 100%;
+          height: 50px;
+          border: 2px solid #eb3e3b;
+          border-bottom-left-radius: 25px;
+          border-top-left-radius: 25px;
+          border-bottom-right-radius: 25px;
+          border-top-right-radius: 25px;
+          text-align: center;
+          font-family: OpenSans, sans-serif;
+          font-weight: 600;
+          font-size: 14px;
+          color: #454545;
+          text-transform: uppercase;
+          line-height: 48px; }
+          header .wrapper .header-content div:first-child a:hover {
+            text-decoration: none;
+            cursor: pointer; }
