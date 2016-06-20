@@ -149,6 +149,9 @@
         height: 50px;
         border:2px solid #d7dce0;
         border-radius: 50%;
+        position: relative;
+        transform: rotate(0deg);
+        transition: transorm .3s ease-in-out;
         span {
             display: block;
             width: 18px;
@@ -157,7 +160,8 @@
             height: 2px;
             background-color: #d7dce0;
             margin-bottom: 4px;
-
+            transition: transform .3s ease-in-out;
+            transform: rotate(0deg);
             &:first-child {
                 margin-top: 16px;
             }
@@ -169,6 +173,11 @@
             span {
                 background-color: #eb3e3b;
             }
+        }
+
+
+        &:focus {
+            outline: none;
         }
     }//a
 }
@@ -186,6 +195,28 @@
         transition: transform .4s ease-in-out;
         -webkit-transition: -webkit-transform .4s ease-in-out;
     }
+
+    #menu-button {
+
+        a {
+
+            border-color: white;
+
+            span {
+
+                background-color: white;
+
+            }
+
+            &:hover {
+                border-color:#d7dce0;
+
+                span {
+                    background-color: #d7dce0;
+                }
+            }
+        }//a
+    }//menu-button
 
 
     &.left {
@@ -241,6 +272,48 @@
 
         right: 100%;
     }
+
+    #menu-button {
+
+        a {
+
+            border-color: white;
+
+            span {
+
+                background-color: white;
+
+                &:nth-child(1) {
+                    transform: rotate(135deg);
+                    position: absolute;
+                    top:5px;
+                    left:15px;
+                }
+
+                &:nth-child(2) {
+                    position: relative;
+                    opacity: 0;
+                    left: -60px;
+                }
+
+                &:nth-child(3) {
+                    transform: rotate(-135deg);
+                    position: absolute;
+                    top: 21px;
+                    left: 15px;
+                }
+
+            }
+
+            &:hover {
+                border-color:#d7dce0;
+
+                span {
+                    background-color: #d7dce0;
+                }
+            }
+        }//a
+    }//menu-button
 
     #top-section {
         display: block;

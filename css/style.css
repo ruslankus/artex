@@ -1603,7 +1603,10 @@ body {
     width: 50px;
     height: 50px;
     border: 2px solid #d7dce0;
-    border-radius: 50%; }
+    border-radius: 50%;
+    position: relative;
+    transform: rotate(0deg);
+    transition: transorm .3s ease-in-out; }
     #menu-button a span {
       display: block;
       width: 18px;
@@ -1611,19 +1614,31 @@ body {
       margin-right: auto;
       height: 2px;
       background-color: #d7dce0;
-      margin-bottom: 4px; }
+      margin-bottom: 4px;
+      transition: transform .3s ease-in-out;
+      transform: rotate(0deg); }
       #menu-button a span:first-child {
         margin-top: 16px; }
     #menu-button a:hover {
       border-color: #eb3e3b; }
       #menu-button a:hover span {
         background-color: #eb3e3b; }
+    #menu-button a:focus {
+      outline: none; }
 
 .animating #top-section {
   display: block; }
 .animating #main-wrapper {
   transition: transform .4s ease-in-out;
   -webkit-transition: -webkit-transform .4s ease-in-out; }
+.animating #menu-button a {
+  border-color: white; }
+  .animating #menu-button a span {
+    background-color: white; }
+  .animating #menu-button a:hover {
+    border-color: #d7dce0; }
+    .animating #menu-button a:hover span {
+      background-color: #d7dce0; }
 .animating.left #main-wrapper {
   transform: translate3d(-100%, 0, 0);
   -webkit-transform: translate3d(-100%, 0, 0); }
@@ -1640,6 +1655,28 @@ body {
 
 .menu-visible #main-wrapper {
   right: 100%; }
+.menu-visible #menu-button a {
+  border-color: white; }
+  .menu-visible #menu-button a span {
+    background-color: white; }
+    .menu-visible #menu-button a span:nth-child(1) {
+      transform: rotate(135deg);
+      position: absolute;
+      top: 5px;
+      left: 15px; }
+    .menu-visible #menu-button a span:nth-child(2) {
+      position: relative;
+      opacity: 0;
+      left: -60px; }
+    .menu-visible #menu-button a span:nth-child(3) {
+      transform: rotate(-135deg);
+      position: absolute;
+      top: 21px;
+      left: 15px; }
+  .menu-visible #menu-button a:hover {
+    border-color: #d7dce0; }
+    .menu-visible #menu-button a:hover span {
+      background-color: #d7dce0; }
 .menu-visible #top-section {
   display: block; }
 @media (min-width: 480px) {
