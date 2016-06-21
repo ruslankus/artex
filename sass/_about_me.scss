@@ -1,0 +1,78 @@
+div {
+
+	&.services_and_about_me {
+
+
+	}
+
+	#about-me {
+
+		.wrapper {
+
+			h2 {
+
+				@include proxima_black(25px);
+				color: #d7dce0;
+				text-transform: uppercase;
+				border-top:10px solid #eb3f3c;
+				padding-top: 45px;
+				padding-left: 15px;
+				margin-bottom: 40px;
+			}
+
+			.description {
+				padding-left: 15px;
+				padding-right: 15px;
+				.photo-holder {
+					margin-bottom: 30px;
+					img {
+						width: 100%;
+						display: block;
+					}
+
+				}//photo-holder
+
+
+				.text-holder {
+
+					p {
+						line-height: 20px;
+						margin-bottom: 15px;
+						strong {
+							color:#595959;
+							@include opensans_bold(15px);
+
+						}
+					}
+				}//text-holder
+
+
+				.links-holder {
+
+					ul {
+
+						li {
+
+							a {
+
+
+							}
+						}
+					}
+
+
+					div {
+
+						a {
+
+
+						}
+					}
+
+				}//link-holder
+			}
+		}
+
+	} //about_me
+
+}

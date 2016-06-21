@@ -65,11 +65,13 @@ header {
 
 
 				&.photo-holder {
-
-
-
+					display: none;
 				}
 			}
+		}
+
+		.links-holder {
+			display: none;
 		}
 
 	}//wrapper
