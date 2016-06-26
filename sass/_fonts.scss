@@ -20,6 +20,38 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/fonts/OpenSans-Semibold.eot');
+    src: url('/fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/OpenSans-Semibold.woff') format('woff'),
+    url('/fonts/OpenSans-Semibold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('/fonts/ProximaNova-Bold.eot');
+    src: url('/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ProximaNova-Bold.woff') format('woff'),
+    url('/fonts/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('/fonts/ProximaNova-Extrabld.eot');
+    src: url('/fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ProximaNova-Extrabld.woff') format('woff'),
+    url('/fonts/ProximaNova-Extrabld.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
 
 @font-face {
     font-family: 'ProximaNova';
@@ -32,10 +64,27 @@
 }
 
 
+@font-face {
+    font-family: 'Arquitecta';
+    src: url('/fonts/ArquitectaBlack.eot');
+    src: url('/fonts/ArquitectaBlack.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ArquitectaBlack.woff') format('woff'),
+    url('/fonts/ArquitectaBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
 
 @mixin opensans_light($size){
     font-family: OpenSans, sans-serif;
     font-weight: 300;
+    font-size: $size;
+}
+
+@mixin opensans_semibold($size){
+    font-family: OpenSans, sans-serif;
+    font-weight: 500;
     font-size: $size;
 }
 
@@ -45,9 +94,27 @@
     font-size: $size;
 }
 
+@mixin proxima_bold($size){
+    font-family: ProximaNova, sans-serif;
+    font-weight: 600;
+    font-size: $size;
+}
+
+@mixin proxima_extrabold($size){
+    font-family: ProximaNova, sans-serif;
+    font-weight: 800;
+    font-size: $size;
+}
+
 
 @mixin proxima_black($size){
     font-family: ProximaNova, sans-serif;
+    font-weight: 900;
+    font-size: $size;
+}
+
+@mixin arquitecta_black($size){
+    font-family: Arquitecta, sans-serif;
     font-weight: 900;
     font-size: $size;
 }

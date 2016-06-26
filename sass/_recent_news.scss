@@ -1,0 +1,140 @@
+#recent-news {
+	padding-top: 45px;
+	padding-left: 15px;
+	padding-right:15px;
+	padding-bottom: 70px;
+	background-color: white;
+	.header-wrapper {
+
+		h2 {
+			@include proxima_black(25px);
+			color:#4d4d4d;
+			text-transform: uppercase;
+		}
+	}
+
+
+	.content-wrapper {
+
+		#carousel-news {
+
+			.carousel-inner {
+				height: 320px;
+				width: 100%;
+				border:2px solid #d8dde1;
+				border-radius: 5px;
+				background:none;
+				max-width: 290px;
+
+				.item {
+					padding: 25px 15px;
+
+					.item-head {
+						div {
+
+							&:first-child {
+								float: left;
+								h5 {
+									@include opensans_semibold(16px);
+									color:#eb3f3c;
+									line-height: 22px;
+									margin-bottom: 0;
+									margin-bottom: 0;
+								}
+
+								p{
+									@include opensans_light(16px);
+									line-height: 22px;
+								}
+							}
+
+
+							&:last-child {
+								position: relative;
+								float: right;
+
+								.heart {
+									display: block;
+									height: 50px;
+									width: 50px;
+									border:2px solid #eb3f3c;
+									border-radius: 24px;
+									background: url("/images/news_heart.png") center center no-repeat;
+									position: relative;
+									& > span {
+
+										position: absolute;
+										display: block;
+										background-color:#eb3f3c;
+										color: white;
+										@include proxima_bold(12px);
+										padding-left: 5px;
+										padding-right: 5px;
+										padding-top: 2px;
+										padding-bottom: 2px;
+										border-radius: 10px;
+										bottom: 0px;
+										left:-18px;
+									}
+								}
+
+
+
+							}
+
+						}
+					}//item-head
+
+
+					.item-text {
+
+						h4 {
+							@include proxima_bold(25px);
+							color:#eb3f3c;
+						}
+
+						p {
+
+						}
+					}
+
+
+				}//item
+
+			}//carousel-inner
+
+			.carousel-indicators {
+				bottom: -55px;
+				li {
+					border:1px solid #d7dce0;
+
+					&.active {
+						background-color: #60707c;
+						border: 1px solid #60707c;
+
+					}
+
+				}
+			}
+
+
+			.carousel-control {
+				display: none;
+				&.left {
+
+
+				}
+
+				&.right {
+
+
+				}
+
+			}//carousel-control
+
+
+		}//#carousel-news
+
+
+	}
+}

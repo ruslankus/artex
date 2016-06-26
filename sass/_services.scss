@@ -1,0 +1,373 @@
+#services {
+
+	background-color: #eceff2;
+
+	.wrapper {
+		padding-top: 45px;
+		padding-left: 15px;
+		padding-right: 15px;
+		h2 {
+			color:#60707c;
+			@include proxima_black(25px);
+			text-transform: uppercase;
+
+
+
+		}
+
+
+		p {
+			margin-top: 30px;
+			strong {
+				@include opensans_bold(15px);
+				line-height: 20px;
+			}
+
+		}
+
+		.services-holder {
+
+			margin-top: 45px;
+
+			.srv {
+				margin-bottom: 30px;
+
+				&:last-child {
+					margin-bottom: 45px;
+				}
+
+				h4 {
+					@include proxima_extrabold(20px);
+					line-height: 18px;
+					text-transform: uppercase;
+					color:#eb3f3c;
+
+					span {
+						display: inline-block;
+						&:first-child {
+							width: 60px;
+							text-align: left;
+							img {
+
+
+							}
+
+						}
+
+
+						&:last-child {
+
+							vertical-align: middle;
+
+						}
+
+					}
+
+
+				}//h4
+
+				p {
+					margin-top: 10px;
+
+				}
+			}
+		}
+	}
+
+/* --------------------- media section ---------------------*/
+
+	@media (min-width:$screen-xs) {
+
+		.wrapper {
+
+			h2 {
+
+
+			}
+
+
+			p {
+
+
+			}
+
+			.services-holder {
+
+				.srv {
+					h4 {
+
+						img {
+
+
+						}
+					}
+
+					p {
+
+
+					}
+				}
+			}
+		}//wrapper
+
+	}//media xs
+
+	@media (min-width:$screen-sm) {
+
+		.wrapper {
+
+			h2 {
+
+
+			}
+
+
+			p {
+
+
+			}
+
+			.services-holder {
+
+				.srv {
+					h4 {
+
+						img {
+
+
+						}
+					}
+
+					p {
+
+
+					}
+				}
+			}
+		}//wrapper
+
+	}//media sm
+
+	@media (min-width:$screen-md) {
+
+		.wrapper {
+
+			h2 {
+
+
+			}
+
+
+			p {
+
+
+			}
+
+			.services-holder {
+
+				.srv {
+					h4 {
+
+						img {
+
+
+						}
+					}
+
+					p {
+
+
+					}
+				}
+			}
+		}//wrapper
+
+	}//media md
+
+	@media (min-width:$screen-lg) {
+
+		.wrapper {
+
+			h2 {
+
+
+			}
+
+
+			p {
+
+
+			}
+
+			.services-holder {
+
+				.srv {
+					h4 {
+
+						img {
+
+
+						}
+					}
+
+					p {
+
+
+					}
+				}
+			}
+		}//wrapper
+
+	}//media lg
+
+
+}//services
+
+#all-services {
+
+	.header-wrapper {
+
+		h2 {
+			span {
+
+
+			}
+		}
+	}
+
+	div {
+
+		.text-holder {
+			p {
+
+			}
+		}
+
+		div {
+			a {
+
+			}
+		}
+	}
+
+
+/* --------------------- media section ---------------------*/
+
+	@media (min-width:$screen-xs) {
+
+		.header-wrapper {
+
+			h2 {
+				span {
+
+
+				}
+			}
+		}
+
+		div {
+
+			.text-holder {
+				p {
+
+				}
+			}
+
+			div {
+				a {
+
+				}
+			}
+		}
+
+	}//media xs
+
+	@media (min-width:$screen-sm) {
+
+		.header-wrapper {
+
+			h2 {
+				span {
+
+
+				}
+			}
+		}
+
+		div {
+
+			.text-holder {
+				p {
+
+				}
+			}
+
+			div {
+				a {
+
+				}
+			}
+		}
+
+	}//media sm
+
+
+	@media (min-width:$screen-md) {
+
+		.header-wrapper {
+
+			h2 {
+				span {
+
+
+				}
+			}
+		}
+
+		div {
+
+			.text-holder {
+				p {
+
+				}
+			}
+
+			div {
+				a {
+
+				}
+			}
+		}
+
+	}//media md
+
+	@media (min-width:$screen-lg) {
+
+		.header-wrapper {
+
+			h2 {
+				span {
+
+
+				}
+			}
+		}
+
+		div {
+
+			.text-holder {
+				p {
+
+				}
+			}
+
+			div {
+				a {
+
+				}
+			}
+		}
+
+	}//media lg
+
+}

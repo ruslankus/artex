@@ -1,0 +1,218 @@
+#all-services {
+	background-color: #f6f8f9;
+	padding-top: 45px;
+	padding-bottom: 50px;
+	& > div {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.header-wrapper {
+		margin-bottom: 35px;
+
+		h2 {
+			margin: 0;
+			height: 63px;
+			& > span {
+				height: inherit;
+				display: inline-block;
+
+				&:first-child {
+					width: 115px;
+					color:#eb3f3c;
+					@include arquitecta_black(96px);
+					line-height: 63px;
+				}
+
+				&:last-child {
+					width: 175px;
+					color: #d7dce0;
+					@include proxima_black(27px);
+					line-height: 21px;
+					text-transform: uppercase;
+				}
+			}
+
+		}
+	}// header -wrapper
+
+
+	div {
+
+		&:last-child {
+
+			.text-holder {
+				text-align: left;
+				p{
+
+				}
+
+			}
+
+
+			&:last-child {
+				text-align: center;
+				margin-top: 30px;
+				& > a {
+					@include botton-with-radius;
+					display: block;
+
+					&:hover {
+						text-decoration: none;
+					}
+				}
+			}
+		}//last child
+
+	}
+
+/* --------------------- media section ---------------------*/
+
+	@media (min-width:$screen-xs) {
+
+		.header-wrapper {
+
+			h2 {
+
+
+			}
+		}// header -wrapper
+
+		div {
+
+			&:last-child {
+
+				.text-holder {
+
+					p{
+
+					}
+
+				}
+
+
+				&:last-child {
+
+					& > a {
+
+
+					}
+				}
+			}//last child
+
+		}
+
+	}//media xs
+
+
+	@media (min-width:$screen-sm) {
+
+		.header-wrapper {
+
+			h2 {
+
+
+			}
+		}// header -wrapper
+
+		div {
+
+			&:last-child {
+
+				.text-holder {
+
+					p{
+
+					}
+
+				}
+
+
+				&:last-child {
+
+					& > a {
+
+
+					}
+				}
+			}//last child
+
+		}
+
+	}//media sm
+
+
+	@media (min-width:$screen-md) {
+
+		.header-wrapper {
+
+			h2 {
+
+
+			}
+		}// header -wrapper
+
+		div {
+
+			&:last-child {
+
+				.text-holder {
+
+					p{
+
+					}
+
+				}
+
+
+				&:last-child {
+
+					& > a {
+
+
+					}
+				}
+			}//last child
+
+		}
+
+	}//media md
+
+
+	@media (min-width:$screen-lg) {
+
+		.header-wrapper {
+
+			h2 {
+
+
+			}
+		}// header -wrapper
+
+		div {
+
+			&:last-child {
+
+				.text-holder {
+
+					p{
+
+					}
+
+				}
+
+
+				&:last-child {
+
+					& > a {
+
+
+					}
+				}
+			}//last child
+
+		}
+
+	}//media xs
+
+}//all-services

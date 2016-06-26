@@ -6,7 +6,8 @@ div {
 	}
 
 	#about-me {
-
+		background-color: white;
+		padding-bottom: 50px;
 		.wrapper {
 
 			h2 {
@@ -47,11 +48,18 @@ div {
 				}//text-holder
 
 
-				.links-holder {
-
+				.link-holder {
+					margin-top: 30px;
 					ul {
-
+						list-style: none;
+						text-align: center;
 						li {
+							display: inline-block;
+							margin-right: 10px;
+
+							&:last-child {
+								margin-left: 0;
+							}
 
 							a {
 
@@ -62,9 +70,11 @@ div {
 
 
 					div {
-
+						margin-top: 30px;
 						a {
 
+							display: block;
+							@include botton-with-radius;
 
 						}
 					}

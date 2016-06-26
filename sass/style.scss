@@ -7,6 +7,18 @@
 /*--------------------- my code begining ------------------*/
 
 
+@mixin botton-with-radius {
+	height: 50px;
+	border: 2px solid #eb3e3b;
+	border-radius: 25px;
+	text-align: center;
+	@include opensans_bold(14px);
+	color: #454545;
+	text-transform: uppercase;
+	line-height: 48px;
+}
+
+
 
 * {
 	margin:0;
@@ -15,7 +27,7 @@
 
 body {
 	position: relative;
-
+	win-width:320px;
     @include opensans_light(15px);
     color:#595959;
 
@@ -33,3 +45,12 @@ body {
 
 @import "_about_me";
 
+@import "_services";
+
+@import "_all_services";
+
+@import "_recent_news";
+
+@import "_triangle";
+
+@import "_clients";
