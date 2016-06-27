@@ -1,5 +1,56 @@
 $(function() {
 
+    $(".slides").slick({
+
+        centerMode: true,
+        centerPadding: '10px',
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        arrows: false,
+
+
+        responsive: [
+
+
+
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '10px',
+                    slidesToShow: 3
+                }
+            },
+
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '10px',
+                    slidesToShow: 2
+                }
+            },
+
+            {
+                breakpoint: 350,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '11px',
+                    slidesToShow: 1
+                }
+            }
+
+
+
+        ]
+
+
+    });
+
+
     $("#menu-button > a").on('touchstart click', function(e) {
         e.preventDefault();
 

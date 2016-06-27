@@ -2,7 +2,9 @@
 
 @import '_fonts';
 
+@import "slick";
 
+@import "slick-theme";
 
 /*--------------------- my code begining ------------------*/
 
@@ -37,6 +39,8 @@ body {
 	}
 }
 
+
+
 @import "_top_section";
 
 @import "_header";
@@ -54,3 +58,6 @@ body {
 @import "_triangle";
 
 @import "_clients";
+
+
+

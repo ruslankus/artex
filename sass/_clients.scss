@@ -1,4 +1,41 @@
 #clients {
-	height: 200px;
 	background-color: #eb3f3c;
+
+	& > .header-wrapper {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 45px;
+
+		h2 {
+			color: white;
+			@include proxima_black(25px);
+			text-transform: uppercase;
+		}
+	}
+
+	.slide-holder {
+		margin-top: 50px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 45px;
+		.slides {
+
+			.slide {
+				display: table;
+				padding-left: 10px;
+				padding-right:10px ;
+				div {
+					display: table-cell;
+					vertical-align: middle;
+					& > img  {
+						display: inline-block;
+						width: 100%;
+					}
+				}
+
+			}//slides
+
+		}//slides
+
+	}//slide-holder
 }
