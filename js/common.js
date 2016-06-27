@@ -11,15 +11,14 @@ $(function() {
 
         responsive: [
 
-
-
             {
                 breakpoint: 768,
                 settings: {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '10px',
-                    slidesToShow: 3
+                    slidesToShow: 2,
+                    dots: true,
                 }
             },
 
@@ -29,17 +28,20 @@ $(function() {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '10px',
-                    slidesToShow: 2
+                    slidesToShow: 2,
+                    dots: true,
                 }
             },
 
             {
-                breakpoint: 350,
+                breakpoint: 360,
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '11px',
-                    slidesToShow: 1
+                    centerPadding: '10px',
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
                 }
             }
 
@@ -47,6 +49,54 @@ $(function() {
 
         ]
 
+
+    });
+
+
+    $('.carousel-inner').slick({
+
+        centerMode: true,
+        centerPadding: '10px',
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        arrows: false,
+        responsive: [
+
+            {
+                breakpoint: 360,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 1,
+                    dots: true
+                }
+            },
+
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '10px',
+                    slidesToShow: 1,
+                    slidesToScroll: 2,
+                    dots: true,
+                }
+            },
+
+            {
+                breakpoint: 760,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 1,
+                    slidesToScroll: 2,
+                    dots: true,
+                }
+            },
+        ]
 
     });
 

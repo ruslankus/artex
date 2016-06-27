@@ -15,9 +15,9 @@
 
 	.slide-holder {
 		margin-top: 50px;
-		padding-left: 15px;
-		padding-right: 15px;
-		padding-bottom: 45px;
+		padding-left: 45px;
+		padding-right: 45px;
+		padding-bottom: 60px;
 		.slides {
 
 			.slide {
@@ -33,7 +33,40 @@
 					}
 				}
 
+
+
 			}//slides
+
+			.slick-dots {
+				bottom: -50px;
+				li {
+					margin:0;
+					button {
+						width: 10px;
+						height: 10px;
+						border:2px solid;
+						border-color: #ffa09f;
+						border-radius: 6px;
+						padding: 0;
+
+
+						&:before {
+							display: none;
+						}
+
+					}
+
+					&.slick-active {
+
+						button {
+							background-color: #ffa09f;
+							border-radius: 7px;
+
+						}
+					}
+				}
+
+			}
 
 		}//slides
 

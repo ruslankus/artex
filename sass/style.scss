@@ -2,9 +2,7 @@
 
 @import '_fonts';
 
-@import "slick";
 
-@import "slick-theme";
 
 /*--------------------- my code begining ------------------*/
 
@@ -52,6 +50,10 @@ body {
 @import "_services";
 
 @import "_all_services";
+
+@import "slick";
+
+@import "slick-theme";
 
 @import "_recent_news";
 

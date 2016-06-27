@@ -151,7 +151,9 @@
         border-radius: 50%;
         position: relative;
         transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
         transition: transorm .3s ease-in-out;
+        -webkit-transition: -webkit-transform .3s ease-in-out;
         span {
             display: block;
             width: 18px;
@@ -161,7 +163,9 @@
             background-color: #d7dce0;
             margin-bottom: 4px;
             transition: transform .3s ease-in-out;
+            -webkit-transition:-webkit-transform .3s ease-in-out;
             transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
             &:first-child {
                 margin-top: 16px;
             }
@@ -285,6 +289,7 @@
 
                 &:nth-child(1) {
                     transform: rotate(135deg);
+                    -webkit-transform:rotate(135deg);
                     position: absolute;
                     top:5px;
                     left:15px;
@@ -298,6 +303,7 @@
 
                 &:nth-child(3) {
                     transform: rotate(-135deg);
+                    -webkit-transform:rotate(-135deg);
                     position: absolute;
                     top: 21px;
                     left: 15px;

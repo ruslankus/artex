@@ -24,11 +24,13 @@
 				border:2px solid #d8dde1;
 				border-radius: 5px;
 				background:none;
-				max-width: 290px;
+				max-width: 320px;
 
 				.item {
 					padding: 25px 15px;
-
+					&:focus {
+						outline: none;
+					}
 					.item-head {
 						div {
 
@@ -101,40 +103,362 @@
 
 				}//item
 
+
+
 			}//carousel-inner
 
-			.carousel-indicators {
-				bottom: -55px;
+			.slick-dots {
+				bottom: -50px;
 				li {
-					border:1px solid #d7dce0;
+					margin: 0;
+					button {
+						width: 10px;
+						height: 10px;
+						border:2px solid;
+						border-color: #d9dee1;
+						border-radius: 6px;
+						padding: 0;
 
-					&.active {
-						background-color: #60707c;
-						border: 1px solid #60707c;
+
+						&:before {
+							display: none;
+						}
 
 					}
 
+					&.slick-active {
+
+						button {
+							background-color: #60707c;
+							border-color:#60707c;
+							border-radius: 7px;
+
+						}
+					}
 				}
+
 			}
-
-
-			.carousel-control {
-				display: none;
-				&.left {
-
-
-				}
-
-				&.right {
-
-
-				}
-
-			}//carousel-control
-
 
 		}//#carousel-news
 
 
 	}
+
+
+
+/* --------------------- media section ---------------------*/
+
+	@media (min-width:$screen-xs) {
+
+
+		.header-wrapper {
+
+			h2 {
+
+			}
+		}
+
+		.content-wrapper {
+
+
+			#carousel-news {
+
+				.carousel-inner {
+					//border: none;
+					margin-right: auto;
+					margin-left: auto;
+					.slick-list {
+						overflow: visible;
+						.item {
+							margin-right: 20px;
+							padding-right: 0px;
+							margin-left: 20px;
+							padding-left: 0px;
+							.item-head {
+
+								div {
+
+									&:first-child {
+
+										h5 {
+
+										}
+
+										p {
+
+										}
+									}
+
+									&:last-child {
+
+										.heart {
+
+											& > span {
+
+											}
+										}
+
+									}
+
+								}
+							}
+							//item-head
+
+							.item-text {
+
+								h4 {
+									@include proxima_bold(25px);
+									color: #eb3f3c;
+								}
+
+								p {
+
+								}
+							}
+
+						}//item
+
+					}//slick list
+
+				}//carousel-inner
+
+			}//#carousel-news
+
+
+		}
+
+	}//media xs
+
+	@media (min-width:$screen-sm) {
+
+		.header-wrapper {
+
+			h2 {
+
+			}
+		}
+
+		.content-wrapper {
+
+
+			#carousel-news {
+
+				.carousel-inner {
+
+
+					.item {
+
+
+						.item-head {
+
+							div {
+
+								&:first-child {
+
+									h5 {
+
+									}
+
+									p{
+
+									}
+								}
+
+
+								&:last-child {
+
+									.heart {
+
+										& > span {
+
+										}
+									}
+
+								}
+
+							}
+						}//item-head
+
+
+						.item-text {
+
+							h4 {
+								@include proxima_bold(25px);
+								color:#eb3f3c;
+							}
+
+							p {
+
+							}
+						}
+
+
+					}//item
+
+				}//carousel-inner
+
+
+
+			}//#carousel-news
+
+
+		}
+
+	}//media sm
+
+	@media (min-width:$screen-md) {
+
+		.header-wrapper {
+
+			h2 {
+
+			}
+		}
+
+		.content-wrapper {
+
+
+			#carousel-news {
+
+				.carousel-inner {
+
+
+					.item {
+
+
+						.item-head {
+
+							div {
+
+								&:first-child {
+
+									h5 {
+
+									}
+
+									p{
+
+									}
+								}
+
+
+								&:last-child {
+
+									.heart {
+
+										& > span {
+
+										}
+									}
+
+								}
+
+							}
+						}//item-head
+
+
+						.item-text {
+
+							h4 {
+								@include proxima_bold(25px);
+								color:#eb3f3c;
+							}
+
+							p {
+
+							}
+						}
+
+
+					}//item
+
+				}//carousel-inner
+
+
+
+			}//#carousel-news
+
+
+		}
+
+	}//media md
+
+	@media (min-width:$screen-lg) {
+
+		.header-wrapper {
+
+			h2 {
+
+			}
+		}
+
+		.content-wrapper {
+
+
+			#carousel-news {
+
+				.carousel-inner {
+
+
+					.item {
+
+
+						.item-head {
+
+							div {
+
+								&:first-child {
+
+									h5 {
+
+									}
+
+									p{
+
+									}
+								}
+
+
+								&:last-child {
+
+									.heart {
+
+										& > span {
+
+										}
+									}
+
+								}
+
+							}
+						}//item-head
+
+
+						.item-text {
+
+							h4 {
+								@include proxima_bold(25px);
+								color:#eb3f3c;
+							}
+
+							p {
+
+							}
+						}
+
+
+					}//item
+
+				}//carousel-inner
+
+
+
+			}//#carousel-news
+
+
+		}
+
+	}//media lg
+
+
 }
