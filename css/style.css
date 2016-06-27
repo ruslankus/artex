@@ -2322,3 +2322,59 @@ div #about-me {
         #clients .slide-holder .slides .slick-dots li.slick-active button {
           background-color: #ffa09f;
           border-radius: 7px; }
+
+#contacts {
+  background-color: #2b2e31; }
+  #contacts .header-wrapper {
+    padding-top: 45px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    #contacts .header-wrapper h2 {
+      color: white;
+      font-family: ProximaNova, sans-serif;
+      font-weight: 900;
+      font-size: 25px;
+      line-height: 21px;
+      text-transform: uppercase; }
+  #contacts .content-wrapper {
+    margin-top: 50px; }
+    #contacts .content-wrapper .adress-holder {
+      padding-left: 15px;
+      padding-right: 15px; }
+      #contacts .content-wrapper .adress-holder table {
+        width: 100%; }
+        #contacts .content-wrapper .adress-holder table tr td:first-child {
+          width: 40%;
+          color: #d7dce0;
+          font-family: OpenSans, sans-serif;
+          font-weight: 300;
+          font-size: 16px; }
+        #contacts .content-wrapper .adress-holder table tr td:last-child {
+          width: 60%;
+          color: white;
+          font-family: OpenSans, sans-serif;
+          font-weight: 500;
+          font-size: 16px;
+          text-align: right; }
+        #contacts .content-wrapper .adress-holder table tr:last-child > td:last-child > span {
+          border-bottom: 2px solid #eb3f3c;
+          display: inline-block;
+          padding-bottom: 3px; }
+      #contacts .content-wrapper .adress-holder .button-holder {
+        margin-top: 25px;
+        padding-bottom: 25px; }
+        #contacts .content-wrapper .adress-holder .button-holder a {
+          display: block;
+          height: 50px;
+          border: 2px solid #eb3e3b;
+          border-radius: 25px;
+          text-align: center;
+          font-family: OpenSans, sans-serif;
+          font-weight: 600;
+          font-size: 14px;
+          color: #454545;
+          text-transform: uppercase;
+          line-height: 48px;
+          color: white; }
+          #contacts .content-wrapper .adress-holder .button-holder a:hover {
+            text-decoration: none; }
