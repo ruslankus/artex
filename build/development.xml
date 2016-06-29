@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="MonoMobi" default="build" basedir=".">
+
+    <target name="setup">
+        <property name="home.dir" value="/var/www/html" />
+        <echo message="Home dir: ${home.dir}" />
+
+        <php function="date" returnProperty="current.time">
+            <param value="Y-m-d-H-i-s"></param>
+        </php>
+        <echo message="Current time: ${current.time}" />
+
+        <resolvepath propertyName="current.dir" file="${home.dir}/qa.start/${build.branch}/${current.time}" />
+        <echo message="Current dir: ${current.dir}" />
+    </target>
+
+    <target name="copy">
+        <mkdir dir="${current.dir}" />
+        <echo msg="Mkdir: ${current.dir}" />
+        <copy todir="${current.dir}" >
+            <fileset dir="${project.basedir}" defaultexcludes="true">
+                <include name="**" />
+            </fileset>
+        </copy>
+
+      </target>
+
+    <target name="symlink">
+        <symlink link="${home.dir}/qa.start/${build.branch}/current" target="${current.dir}" overwrite="true" />
+    </target>
+
+    <target name="build" depends="setup, copy, symlink"></target>
+</project>
