@@ -100,15 +100,48 @@ $(function() {
 
     });
 
+    $('.testimonials').slick({
+
+        centerMode: true,
+        centerPadding: '10px',
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        arrows: false,
+        responsive: [
+
+            {
+                breakpoint: 360,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 1,
+                    dots: true
+                }
+            },
+
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
+                }
+            }
+        ]
+
+    });
+
 
     $("#menu-button > a").on('touchstart click', function(e) {
         e.preventDefault();
 
-        console.log(this);
-
         var $body = $( 'body' ),
             $page = $( '#main-wrapper' ),
-            $menu = $( '#top-section' ),
+            //$menu = $( '#top-section' ),
 
         /* Cross browser support for CSS "transition end" event */
         transitionEnd = 'transitionend webkitTransitionEnd otransitionend MSTransitionEnd';
@@ -150,7 +183,8 @@ $(function() {
 
 });
 
-
+/*
 function getHeight() {
     return  $(window).height();
 }
+*/

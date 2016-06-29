@@ -72,7 +72,126 @@
 
 		.testimonials-holder{
 
+			//padding-left: 15px;
+			//padding-right: 15px;
+			 & > .testimonials {
+				padding-bottom: 60px;
+				margin-bottom: 0;
 
+				& > .slick-dots {
+					padding-left: 5px;
+					padding-right: 5px;
+					bottom: 18px;
+					text-align: right;
+					li {
+						margin:0;
+
+						button {
+							width: 10px;
+							height: 10px;
+							border:2px solid;
+							border-color: #3e454b;
+							border-radius: 6px;
+							padding: 0;
+
+
+							&:before {
+								display: none;
+							}
+
+						}
+
+						&.slick-active {
+
+							button {
+								border-color: #586167;
+								background-color: #586167;
+								border-radius: 7px;
+
+							}
+						}
+					}
+				}//.slick-dots
+
+				.testimonial {
+					margin-left: 15px;
+					margin-right: 15px;
+
+					&:focus {
+						outline: none;
+					}
+
+
+
+
+					.top {
+
+						p {
+							@include opensans_light_italic(15px);
+							line-height: 20px;
+							color:#b6c1cb;
+							padding: 23px 15px;
+							border:2px solid #eb3f3c;
+							border-radius: 5px;
+							position: relative;
+							height: 133px;
+
+							& > *  {
+								position: absolute;
+								&.traingle {
+									padding-top: 1px;
+									background-color: #2b2e31;
+									right: 17px;
+									bottom: -13px;
+								}
+
+								&.quotes {
+
+
+									right: 20px;
+									bottom: 10px;
+									height: 26px;
+
+									& > span {
+										@include proxima_black(79px);
+										color: #35383b;
+										line-height: 56px;
+										float: left;
+										transform: rotate(-20deg);
+										-webkit-transform: rotate(-20deg);
+										//width: 20px;
+									}
+
+								}
+
+							}//img;
+
+						}//p
+
+					}//top
+
+
+					.botton {
+						margin-top: 15px;
+						text-align: right;
+						@include opensans_semibold(16px);
+
+						span {
+
+							&:first-child {
+								color: white;
+							}
+
+							&:last-child {
+								margin-left: 5px;
+								color: #eb3f3c;
+							}
+						}
+
+					}//botton
+				}
+
+			}
 
 		}
 	}

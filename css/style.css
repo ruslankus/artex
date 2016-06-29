@@ -1534,6 +1534,12 @@ pre {
   font-style: normal; }
 @font-face {
   font-family: 'OpenSans';
+  src: url("/fonts/OpenSansLight-Italic.eot");
+  src: url("/fonts/OpenSansLight-Italic.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSansLight-Italic.woff") format("woff"), url("/fonts/OpenSansLight-Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: 'OpenSans';
   src: url("/fonts/OpenSans-Bold.eot");
   src: url("/fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans-Bold.woff") format("woff"), url("/fonts/OpenSans-Bold.ttf") format("truetype");
   font-weight: 600;
@@ -1579,6 +1585,7 @@ body {
   font-family: OpenSans, sans-serif;
   font-weight: 300;
   font-size: 15px;
+  font-style: normal;
   color: #595959; }
   body h1, body h2, body h3, body h4 {
     margin-bottom: 0;
@@ -2179,6 +2186,7 @@ div #about-me {
             font-family: OpenSans, sans-serif;
             font-weight: 300;
             font-size: 16px;
+            font-style: normal;
             line-height: 22px; }
         #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-head div:last-child {
           position: relative;
@@ -2348,7 +2356,8 @@ div #about-me {
           color: #d7dce0;
           font-family: OpenSans, sans-serif;
           font-weight: 300;
-          font-size: 16px; }
+          font-size: 16px;
+          font-style: normal; }
         #contacts .content-wrapper .adress-holder table tr td:last-child {
           width: 60%;
           color: white;
@@ -2378,3 +2387,97 @@ div #about-me {
           color: white; }
           #contacts .content-wrapper .adress-holder .button-holder a:hover {
             text-decoration: none; }
+    #contacts .content-wrapper .testimonials-holder > .testimonials {
+      padding-bottom: 60px;
+      margin-bottom: 0; }
+      #contacts .content-wrapper .testimonials-holder > .testimonials > .slick-dots {
+        padding-left: 5px;
+        padding-right: 5px;
+        bottom: 18px;
+        text-align: right; }
+        #contacts .content-wrapper .testimonials-holder > .testimonials > .slick-dots li {
+          margin: 0; }
+          #contacts .content-wrapper .testimonials-holder > .testimonials > .slick-dots li button {
+            width: 10px;
+            height: 10px;
+            border: 2px solid;
+            border-color: #3e454b;
+            border-radius: 6px;
+            padding: 0; }
+            #contacts .content-wrapper .testimonials-holder > .testimonials > .slick-dots li button:before {
+              display: none; }
+          #contacts .content-wrapper .testimonials-holder > .testimonials > .slick-dots li.slick-active button {
+            border-color: #586167;
+            background-color: #586167;
+            border-radius: 7px; }
+      #contacts .content-wrapper .testimonials-holder > .testimonials .testimonial {
+        margin-left: 15px;
+        margin-right: 15px; }
+        #contacts .content-wrapper .testimonials-holder > .testimonials .testimonial:focus {
+          outline: none; }
+        #contacts .content-wrapper .testimonials-holder > .testimonials .testimonial .top p {
+          font-family: OpenSans, sans-serif;
+          font-weight: 300;
+          font-size: 15px;
+          font-style: italic;
+          line-height: 20px;
+          color: #b6c1cb;
+          padding: 23px 15px;
+          border: 2px solid #eb3f3c;
+          border-radius: 5px;
+          position: relative;
+          height: 133px; }
+          #contacts .content-wrapper .testimonials-holder > .testimonials .testimonial .top p > * {
+            position: absolute; }
+            #contacts .content-wrapper .testimonials-holder > .testimonials .testimonial .top p > *.traingle {
+              padding-top: 1px;
+              background-color: #2b2e31;
+              right: 17px;
+              bottom: -13px; }
+            #contacts .content-wrapper .testimonials-holder > .testimonials .testimonial .top p > *.quotes {
+              right: 20px;
+              bottom: 10px;
+              height: 26px; }
+              #contacts .content-wrapper .testimonials-holder > .testimonials .testimonial .top p > *.quotes > span {
+                font-family: ProximaNova, sans-serif;
+                font-weight: 900;
+                font-size: 79px;
+                color: #35383b;
+                line-height: 56px;
+                float: left;
+                transform: rotate(-20deg);
+                -webkit-transform: rotate(-20deg); }
+        #contacts .content-wrapper .testimonials-holder > .testimonials .testimonial .botton {
+          margin-top: 15px;
+          text-align: right;
+          font-family: OpenSans, sans-serif;
+          font-weight: 500;
+          font-size: 16px; }
+          #contacts .content-wrapper .testimonials-holder > .testimonials .testimonial .botton span:first-child {
+            color: white; }
+          #contacts .content-wrapper .testimonials-holder > .testimonials .testimonial .botton span:last-child {
+            margin-left: 5px;
+            color: #eb3f3c; }
+
+footer {
+  background-color: #26292c;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /* --------------------- media section ---------------------*/ }
+  footer > .wrapper {
+    padding-right: 15px;
+    padding-left: 15px; }
+    footer > .wrapper .right ul {
+      list-style: none;
+      text-align: center; }
+      footer > .wrapper .right ul li {
+        display: inline-block;
+        margin-right: 4px; }
+        footer > .wrapper .right ul li:last-child {
+          margin-left: 0; }
+    footer > .wrapper .left {
+      margin-top: 20px;
+      text-align: center; }
+      footer > .wrapper .left span {
+        display: block;
+        color: #5a6167; }
