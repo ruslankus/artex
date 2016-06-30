@@ -70,6 +70,11 @@
 
 	@media (min-width:$screen-xs) {
 
+		& > div {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
 		.header-wrapper {
 
 			h2 {
@@ -92,9 +97,11 @@
 
 
 				&:last-child {
-
+					text-align: left;
 					& > a {
-
+						display: inline-block;
+						padding-right: 40px;
+						padding-left: 40px;
 
 					}
 				}

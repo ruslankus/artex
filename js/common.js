@@ -81,7 +81,20 @@ $(function() {
                     infinite: false,
                     arrows: false,
                     centerMode: false,
-                    centerPadding: '5px',
+                    centerPadding: '0px',
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
+                }
+            },
+
+            {
+                breakpoint: 580,
+                settings: {
+                    infinite: false,
+                    arrows: false,
+                    centerMode: false,
+                    centerPadding: '0px',
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     dots: true,
@@ -91,11 +104,11 @@ $(function() {
             {
                 breakpoint: 760,
                 settings: {
-                    infinite: true,
+                    infinite: false,
                     arrows: false,
                     centerMode: false,
                     centerPadding: '0px',
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     dots: true,
                 }

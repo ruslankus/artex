@@ -2003,6 +2003,16 @@ div #about-me {
       display: block; }
       #all-services div:last-child:last-child > a:hover {
         text-decoration: none; }
+  @media (min-width: 480px) {
+    #all-services > div {
+      padding-left: 30px;
+      padding-right: 30px; }
+    #all-services div:last-child:last-child {
+      text-align: left; }
+      #all-services div:last-child:last-child > a {
+        display: inline-block;
+        padding-right: 40px;
+        padding-left: 40px; } }
 
 /* Slider */
 .slick-slider {
@@ -2222,8 +2232,7 @@ div #about-me {
       background: none; }
       #recent-news .content-wrapper #carousel-news .carousel-inner .item {
         padding: 25px 15px;
-        width: 100%;
-        max-width: 360px; }
+        width: 100%; }
         #recent-news .content-wrapper #carousel-news .carousel-inner .item:focus {
           outline: none; }
         #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-head > div:first-child {
@@ -2304,15 +2313,13 @@ div #about-me {
           border-color: #60707c;
           border-radius: 7px; }
   @media (min-width: 480px) {
-    #recent-news .content-wrapper #carousel-news .carousel-inner {
-      margin-right: auto;
-      margin-left: auto; }
+    #recent-news {
+      padding-left: 30px;
+      padding-right: 30px; }
       #recent-news .content-wrapper #carousel-news .carousel-inner .slick-list {
-        overflow: visible;
-        max-width: 360px; }
+        width: 100%; }
         #recent-news .content-wrapper #carousel-news .carousel-inner .slick-list .item {
-          padding-right: 15px;
-          padding-left: 15px; }
+          width: 100%; }
           #recent-news .content-wrapper #carousel-news .carousel-inner .slick-list .item.last {
             border: 2px solid #d8dde1;
             border-radius: 5px; }
