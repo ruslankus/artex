@@ -54,7 +54,7 @@ $(function() {
 
 
     $('.carousel-inner').slick({
-
+        infinite: true,
         centerMode: true,
         centerPadding: '10px',
         slidesToShow: 3,
@@ -65,10 +65,12 @@ $(function() {
             {
                 breakpoint: 360,
                 settings: {
+                    infinite: false,
                     arrows: false,
                     centerMode: true,
                     centerPadding: '0px',
                     slidesToShow: 1,
+                    slidesToScroll: 1,
                     dots: true
                 }
             },
@@ -76,11 +78,12 @@ $(function() {
             {
                 breakpoint: 480,
                 settings: {
+                    infinite: false,
                     arrows: false,
-                    centerMode: true,
-                    centerPadding: '10px',
+                    centerMode: false,
+                    centerPadding: '5px',
                     slidesToShow: 1,
-                    slidesToScroll: 2,
+                    slidesToScroll: 1,
                     dots: true,
                 }
             },
@@ -88,11 +91,12 @@ $(function() {
             {
                 breakpoint: 760,
                 settings: {
+                    infinite: true,
                     arrows: false,
-                    centerMode: true,
+                    centerMode: false,
                     centerPadding: '0px',
                     slidesToShow: 1,
-                    slidesToScroll: 2,
+                    slidesToScroll: 1,
                     dots: true,
                 }
             },

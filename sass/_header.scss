@@ -79,24 +79,25 @@ header {
 	@media (min-width:$screen-xs) {
 
 		.wrapper {
-
+			padding-left: 30px;
+			padding-right: 30px;
 			.logo-holder {
 
 				a {
-
+					width: 65px;
 				}
 			}//logo-holder
 
 
 			.header-content {
-
+				margin-top: 130px;
 				div {
 
 
 					&:first-child {
 
 						h2 {
-
+							margin-bottom: 35px;
 
 						}
 
@@ -109,8 +110,11 @@ header {
 
 
 						a {
-
-
+							width: auto;
+							padding-left: 40px;
+							padding-right: 40px;
+							display: inline-block;
+							margin-top: 40px;
 						}
 					}
 

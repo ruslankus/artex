@@ -21,18 +21,27 @@
 			.carousel-inner {
 				height: 320px;
 				width: 100%;
-				border:2px solid #d8dde1;
-				border-radius: 5px;
+
 				background:none;
-				max-width: 320px;
+				//max-width: 360px;
 
 				.item {
+					//padding: 25px 15px;
 					padding: 25px 15px;
+					//margin-left: 4px;
+					//margin-right: 15px;
+					width: 100%;
+					max-width: 360px;
 					&:focus {
 						outline: none;
 					}
+
+					&:last-child {
+						//margin-right: 15px;
+					}
+
 					.item-head {
-						div {
+						& > div {
 
 							&:first-child {
 								float: left;
@@ -59,22 +68,24 @@
 									display: block;
 									height: 50px;
 									width: 50px;
-									border:2px solid #eb3f3c;
+									border:2px solid #d7dce0;
 									border-radius: 24px;
-									background: url("/images/news_heart.png") center center no-repeat;
+									background: url("/images/news_heart_sprite.png") bottom no-repeat;
 									position: relative;
 									& > span {
 
 										position: absolute;
 										display: block;
-										background-color:#eb3f3c;
-										color: white;
+										background-color:white;
+										color: #60707c;
 										@include proxima_bold(12px);
+										line-height: 12px;
 										padding-left: 5px;
 										padding-right: 5px;
 										padding-top: 2px;
 										padding-bottom: 2px;
 										border-radius: 10px;
+										border:2px solid #60707c;
 										bottom: 0px;
 										left:-18px;
 									}
@@ -92,11 +103,52 @@
 
 						h4 {
 							@include proxima_bold(25px);
-							color:#eb3f3c;
+							color:#60707c;
 						}
 
 						p {
 
+						}
+					}
+
+					&.last {
+						border:2px solid #d8dde1;
+						border-radius: 5px;
+						//margin-left: 3px;
+						//margin-right: 3px;
+						.item-head {
+							& > div {
+
+								&:last-child {
+
+									.heart {
+
+										border:2px solid #eb3f3c;
+										background: url("/images/news_heart_sprite.png") top no-repeat;
+
+										& > span {
+											background-color:#eb3f3c;
+											color: white;
+
+										}
+									}
+
+
+
+								}
+							}
+						}
+
+						.item-text {
+
+							h4 {
+
+								color:#eb3f3c;
+							}
+
+							p {
+
+							}
 						}
 					}
 
@@ -169,11 +221,12 @@
 					margin-left: auto;
 					.slick-list {
 						overflow: visible;
+						max-width: 360px;
 						.item {
-							margin-right: 20px;
-							padding-right: 0px;
-							margin-left: 20px;
-							padding-left: 0px;
+							//margin-right: 20px;
+							padding-right: 15px;
+							//margin-left: 20px;
+							padding-left: 15px;
 							.item-head {
 
 								div {
@@ -207,12 +260,52 @@
 							.item-text {
 
 								h4 {
-									@include proxima_bold(25px);
-									color: #eb3f3c;
+
 								}
 
 								p {
 
+								}
+							}
+
+							&.last {
+								border:2px solid #d8dde1;
+								border-radius: 5px;
+								//margin-left: 3px;
+								//margin-right: 3px;
+								.item-head {
+									& > div {
+
+										&:last-child {
+
+											.heart {
+
+												border:2px solid #eb3f3c;
+												background: url("/images/news_heart_sprite.png") top no-repeat;
+
+												& > span {
+													background-color:#eb3f3c;
+													color: white;
+
+												}
+											}
+
+
+
+										}
+									}
+								}
+
+								.item-text {
+
+									h4 {
+
+										color:#eb3f3c;
+									}
+
+									p {
+
+									}
 								}
 							}
 
