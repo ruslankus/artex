@@ -1808,10 +1808,14 @@ header {
       #recent-project .wrapper-project-holder .project a img {
         width: 100%;
         display: block; }
+  @media (min-width: 480px) {
+    #recent-project .header-wrapper h2 {
+      padding-left: 30px; } }
 
 div #about-me {
   background-color: white;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  /* --------------------- media section ---------------------*/ }
   div #about-me .wrapper h2 {
     font-family: ProximaNova, sans-serif;
     font-weight: 900;
@@ -1862,6 +1866,28 @@ div #about-me {
           color: #454545;
           text-transform: uppercase;
           line-height: 48px; }
+  @media (min-width: 480px) {
+    div #about-me {
+      padding-bottom: 40px; }
+      div #about-me .wrapper h2 {
+        border-top: 11px solid #eb3f3c;
+        padding-left: 30px;
+        padding-right: 30px; }
+      div #about-me .wrapper .description {
+        padding-left: 30px;
+        padding-right: 30px; }
+        div #about-me .wrapper .description .text-holder p {
+          line-height: 20px;
+          margin-bottom: 20px; }
+        div #about-me .wrapper .description .link-holder {
+          margin-top: 25px; }
+          div #about-me .wrapper .description .link-holder > * {
+            float: left;
+            width: 50%; }
+          div #about-me .wrapper .description .link-holder ul {
+            text-align: left; }
+          div #about-me .wrapper .description .link-holder div {
+            margin-top: 0px; } }
 
 #services {
   background-color: #eceff2;

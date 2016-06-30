@@ -83,6 +83,275 @@ div {
 			}
 		}
 
+
+
+/* --------------------- media section ---------------------*/
+
+		@media (min-width:$screen-xs) {
+			padding-bottom: 40px;
+			.wrapper {
+
+				h2 {
+					border-top:11px solid #eb3f3c;
+					padding-left: 30px;
+					padding-right: 30px;
+				}
+
+				.description {
+					padding-left: 30px;
+					padding-right: 30px;
+					.photo-holder {
+
+						img {
+
+						}
+
+					}//photo-holder
+
+
+					.text-holder {
+
+						p {
+							line-height: 20px;
+							margin-bottom: 20px;
+							strong {
+
+							}
+						}
+					}//text-holder
+
+
+					.link-holder {
+						margin-top: 25px;
+						& > * {
+							float: left;
+							width: 50%;
+						}
+
+						ul {
+							text-align: left;
+							li {
+
+
+								&:last-child {
+
+								}
+
+								a {
+
+
+								}
+							}
+						}
+
+
+						div {
+							margin-top:0px;
+							a {
+
+
+
+							}
+						}
+
+					}//link-holder
+				}
+			}
+
+		}//screen-xs
+
+
+		@media (min-width:$screen-sm) {
+			.wrapper {
+
+				h2 {
+
+				}
+
+				.description {
+
+					.photo-holder {
+
+						img {
+
+						}
+
+					}//photo-holder
+
+
+					.text-holder {
+
+						p {
+
+							strong {
+
+							}
+						}
+					}//text-holder
+
+
+					.link-holder {
+
+						ul {
+
+							li {
+
+
+								&:last-child {
+
+								}
+
+								a {
+
+
+								}
+							}
+						}
+
+
+						div {
+
+							a {
+
+
+
+							}
+						}
+
+					}//link-holder
+				}
+			}
+		}//screen-sm
+
+
+		@media (min-width:$screen-md) {
+
+			.wrapper {
+
+				h2 {
+
+				}
+
+				.description {
+
+					.photo-holder {
+
+						img {
+
+						}
+
+					}//photo-holder
+
+
+					.text-holder {
+
+						p {
+
+							strong {
+
+							}
+						}
+					}//text-holder
+
+
+					.link-holder {
+
+						ul {
+
+							li {
+
+
+								&:last-child {
+
+								}
+
+								a {
+
+
+								}
+							}
+						}
+
+
+						div {
+
+							a {
+
+
+
+							}
+						}
+
+					}//link-holder
+				}
+			}
+		}//screen-md
+
+		@media (min-width:$screen-lg) {
+
+			.wrapper {
+
+				h2 {
+
+				}
+
+				.description {
+
+					.photo-holder {
+
+						img {
+
+						}
+
+					}//photo-holder
+
+
+					.text-holder {
+
+						p {
+
+							strong {
+
+							}
+						}
+					}//text-holder
+
+
+					.link-holder {
+
+						ul {
+
+							li {
+
+
+								&:last-child {
+
+								}
+
+								a {
+
+
+								}
+							}
+						}
+
+
+						div {
+
+							a {
+
+
+
+							}
+						}
+
+					}//link-holder
+				}
+			}
+		}//screen-lg
+
+
+
 	} //about_me
 
 }
