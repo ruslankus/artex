@@ -2411,7 +2411,8 @@ div #about-me {
           border-radius: 7px; }
 
 #contacts {
-  background-color: #2b2e31; }
+  background-color: #2b2e31;
+  /* --------------------- media section ---------------------*/ }
   #contacts .header-wrapper {
     padding-top: 45px;
     padding-left: 15px;
@@ -2537,6 +2538,37 @@ div #about-me {
           #contacts .content-wrapper .testimonials-holder > .testimonials .testimonial .botton span:last-child {
             margin-left: 5px;
             color: #eb3f3c; }
+  @media (min-width: 480px) {
+    #contacts .header-wrapper {
+      padding-left: 30px;
+      padding-right: 30px; }
+    #contacts .content-wrapper .adress-holder {
+      padding-left: 30px;
+      padding-right: 30px; }
+    #contacts .content-wrapper .testimonials-holder {
+      padding-left: 15px;
+      padding-right: 15px; } }
+  @media (min-width: 768px) {
+    #contacts .header-wrapper {
+      padding-left: 30px;
+      padding-right: 30px; }
+    #contacts .content-wrapper .adress-holder {
+      padding-left: 30px;
+      padding-right: 30px; } }
+  @media (min-width: 992px) {
+    #contacts .header-wrapper {
+      padding-left: 30px;
+      padding-right: 30px; }
+    #contacts .content-wrapper .adress-holder {
+      padding-left: 30px;
+      padding-right: 30px; } }
+  @media (min-width: 1200px) {
+    #contacts .header-wrapper {
+      padding-left: 30px;
+      padding-right: 30px; }
+    #contacts .content-wrapper .adress-holder {
+      padding-left: 30px;
+      padding-right: 30px; } }
 
 footer {
   background-color: #26292c;

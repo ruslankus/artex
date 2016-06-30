@@ -12,7 +12,6 @@
 		}
 	}//header-wrapper
 
-
 	.content-wrapper {
 		margin-top: 50px;
 		.adress-holder {
@@ -195,5 +194,620 @@
 
 		}
 	}
+
+/* --------------------- media section ---------------------*/
+
+	@media (min-width:$screen-xs) {
+
+		.header-wrapper {
+			padding-left: 30px;
+			padding-right: 30px;
+			h2 {
+
+			}
+		}//header-wrapper
+
+		.content-wrapper {
+
+			.adress-holder {
+
+				padding-left: 30px;
+				padding-right: 30px;
+
+				table {
+
+					tr {
+						td {
+
+							&:first-child {
+
+							}
+
+							&:last-child {
+
+							}
+						}
+
+						&:last-child {
+
+							& > td:last-child {
+
+								& > span {
+
+								}
+							}
+						}
+					}
+
+				}
+
+				.button-holder{
+
+					a {
+
+
+						&:hover {
+
+						}
+					}
+
+				}
+			}//adress-holder
+
+			.testimonials-holder{
+				padding-left: 15px;
+				padding-right: 15px;
+
+				& > .testimonials {
+
+
+					& > .slick-dots {
+
+						li {
+
+
+							button {
+
+
+
+								&:before {
+
+								}
+
+							}
+
+							&.slick-active {
+
+								button {
+
+
+								}
+							}
+						}
+					}//.slick-dots
+
+					.testimonial {
+
+
+						&:focus {
+
+						}
+
+
+
+
+						.top {
+
+							p {
+
+
+								& > *  {
+
+									&.traingle {
+
+									}
+
+									&.quotes {
+
+
+
+
+										& > span {
+
+										}
+
+									}
+
+								}//img;
+
+							}//p
+
+						}//top
+
+
+						.botton {
+
+
+							span {
+
+								&:first-child {
+
+								}
+
+								&:last-child {
+
+								}
+							}
+
+						}//botton
+					}
+
+				}
+
+			}
+		}
+
+	}//screen - xs
+
+
+	@media (min-width:$screen-sm) {
+
+		.header-wrapper {
+			padding-left: 30px;
+			padding-right: 30px;
+			h2 {
+
+			}
+		}//header-wrapper
+
+		.content-wrapper {
+
+			.adress-holder {
+
+				padding-left: 30px;
+				padding-right: 30px;
+
+				table {
+
+					tr {
+						td {
+
+							&:first-child {
+
+							}
+
+							&:last-child {
+
+							}
+						}
+
+						&:last-child {
+
+							& > td:last-child {
+
+								& > span {
+
+								}
+							}
+						}
+					}
+
+				}
+
+				.button-holder{
+
+					a {
+
+
+						&:hover {
+
+						}
+					}
+
+				}
+			}//adress-holder
+
+			.testimonials-holder{
+
+
+				& > .testimonials {
+
+
+					& > .slick-dots {
+
+						li {
+
+
+							button {
+
+
+
+								&:before {
+
+								}
+
+							}
+
+							&.slick-active {
+
+								button {
+
+
+								}
+							}
+						}
+					}//.slick-dots
+
+					.testimonial {
+
+
+						&:focus {
+
+						}
+
+
+
+
+						.top {
+
+							p {
+
+
+								& > *  {
+
+									&.traingle {
+
+									}
+
+									&.quotes {
+
+
+
+
+										& > span {
+
+										}
+
+									}
+
+								}//img;
+
+							}//p
+
+						}//top
+
+
+						.botton {
+
+
+							span {
+
+								&:first-child {
+
+								}
+
+								&:last-child {
+
+								}
+							}
+
+						}//botton
+					}
+
+				}
+
+			}
+		}
+
+	}//screen - sm
+
+
+	@media (min-width:$screen-md) {
+
+		.header-wrapper {
+			padding-left: 30px;
+			padding-right: 30px;
+			h2 {
+
+			}
+		}//header-wrapper
+
+		.content-wrapper {
+
+			.adress-holder {
+
+				padding-left: 30px;
+				padding-right: 30px;
+
+				table {
+
+					tr {
+						td {
+
+							&:first-child {
+
+							}
+
+							&:last-child {
+
+							}
+						}
+
+						&:last-child {
+
+							& > td:last-child {
+
+								& > span {
+
+								}
+							}
+						}
+					}
+
+				}
+
+				.button-holder{
+
+					a {
+
+
+						&:hover {
+
+						}
+					}
+
+				}
+			}//adress-holder
+
+			.testimonials-holder{
+
+
+				& > .testimonials {
+
+
+					& > .slick-dots {
+
+						li {
+
+
+							button {
+
+
+
+								&:before {
+
+								}
+
+							}
+
+							&.slick-active {
+
+								button {
+
+
+								}
+							}
+						}
+					}//.slick-dots
+
+					.testimonial {
+
+
+						&:focus {
+
+						}
+
+
+
+
+						.top {
+
+							p {
+
+
+								& > *  {
+
+									&.traingle {
+
+									}
+
+									&.quotes {
+
+
+
+
+										& > span {
+
+										}
+
+									}
+
+								}//img;
+
+							}//p
+
+						}//top
+
+
+						.botton {
+
+
+							span {
+
+								&:first-child {
+
+								}
+
+								&:last-child {
+
+								}
+							}
+
+						}//botton
+					}
+
+				}
+
+			}
+		}
+
+
+	}//screen - md
+
+
+	@media (min-width:$screen-lg) {
+
+		.header-wrapper {
+			padding-left: 30px;
+			padding-right: 30px;
+			h2 {
+
+			}
+		}//header-wrapper
+
+		.content-wrapper {
+
+			.adress-holder {
+
+				padding-left: 30px;
+				padding-right: 30px;
+
+				table {
+
+					tr {
+						td {
+
+							&:first-child {
+
+							}
+
+							&:last-child {
+
+							}
+						}
+
+						&:last-child {
+
+							& > td:last-child {
+
+								& > span {
+
+								}
+							}
+						}
+					}
+
+				}
+
+				.button-holder{
+
+					a {
+
+
+						&:hover {
+
+						}
+					}
+
+				}
+			}//adress-holder
+
+			.testimonials-holder{
+
+
+				& > .testimonials {
+
+
+					& > .slick-dots {
+
+						li {
+
+
+							button {
+
+
+
+								&:before {
+
+								}
+
+							}
+
+							&.slick-active {
+
+								button {
+
+
+								}
+							}
+						}
+					}//.slick-dots
+
+					.testimonial {
+
+
+						&:focus {
+
+						}
+
+
+
+
+						.top {
+
+							p {
+
+
+								& > *  {
+
+									&.traingle {
+
+									}
+
+									&.quotes {
+
+
+
+
+										& > span {
+
+										}
+
+									}
+
+								}//img;
+
+							}//p
+
+						}//top
+
+
+						.botton {
+
+
+							span {
+
+								&:first-child {
+
+								}
+
+								&:last-child {
+
+								}
+							}
+
+						}//botton
+					}
+
+				}
+
+			}
+		}
+
+
+	}//screen - lg
+
+
+
 
 }

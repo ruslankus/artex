@@ -138,12 +138,24 @@ $(function() {
             },
 
             {
-                breakpoint: 480,
+                breakpoint: 760,
                 settings: {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '0px',
                     slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
+                }
+            },
+
+            {
+                breakpoint: 960,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     dots: true,
                 }
