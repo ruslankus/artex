@@ -1931,6 +1931,24 @@ div #about-me {
               vertical-align: middle; }
         #services .wrapper .services-holder .srv p {
           margin-top: 10px; }
+  @media (min-width: 480px) {
+    #services .wrapper {
+      padding-left: 30px;
+      padding-right: 30px; }
+      #services .wrapper p {
+        margin-top: 20px;
+        line-height: 20px; }
+      #services .wrapper .services-holder .srv {
+        width: 50%;
+        float: left;
+        height: 165px;
+        overflow: hidden; }
+        #services .wrapper .services-holder .srv:nth-child(odd) {
+          padding-right: 15px; }
+        #services .wrapper .services-holder .srv:nth-child(even) {
+          padding-left: 15px; }
+        #services .wrapper .services-holder .srv:last-child {
+          margin-bottom: 30px; } }
 
 #all-services {
   /* --------------------- media section ---------------------*/ }

@@ -79,7 +79,8 @@
 	@media (min-width:$screen-xs) {
 
 		.wrapper {
-
+			padding-left: 30px;
+			padding-right: 30px;
 			h2 {
 
 
@@ -87,13 +88,33 @@
 
 
 			p {
-
+				margin-top: 20px;
+				line-height: 20px;
 
 			}
 
 			.services-holder {
 
 				.srv {
+					width: 50%;
+					float: left;
+					height: 165px;
+					overflow: hidden;
+
+
+
+					&:nth-child(odd){
+						padding-right: 15px;
+					}
+
+					&:nth-child(even){
+						padding-left: 15px;
+					}
+
+					&:last-child {
+						margin-bottom: 30px;
+					}
+
 					h4 {
 
 						img {
@@ -103,7 +124,6 @@
 					}
 
 					p {
-
 
 					}
 				}
