@@ -1569,6 +1569,7 @@ pre {
   src: url("/fonts/ArquitectaBlack.eot?#iefix") format("embedded-opentype"), url("/fonts/ArquitectaBlack.woff") format("woff"), url("/fonts/ArquitectaBlack.ttf") format("truetype");
   font-weight: 900;
   font-style: normal; }
+/*--------------------- my variables -----------------------*/
 /*--------------------- my code begining ------------------*/
 * {
   margin: 0;
@@ -1800,6 +1801,34 @@ header {
           header .wrapper .header-content > div.photo-holder img {
             display: block;
             width: 100%; } }
+  @media (min-width: 960px) {
+    header .wrapper {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 70px;
+      position: relative; }
+      header .wrapper .logo-holder {
+        position: absolute;
+        top: 110px;
+        left: 30px; }
+        header .wrapper .logo-holder a {
+          width: 245px; }
+          header .wrapper .logo-holder a img {
+            display: block;
+            width: 100%; }
+      header .wrapper .header-content {
+        margin-top: 0; }
+        header .wrapper .header-content div:first-child {
+          padding-left: 30px;
+          padding-top: 220px;
+          width: 41.67%; }
+          header .wrapper .header-content div:first-child h2 {
+            font-size: 50px; }
+        header .wrapper .header-content div.photo-holder {
+          width: 58.33%;
+          padding-right: 150px;
+          padding-left: 30px;
+          margin-top: 0; } }
 
 #recent-project {
   /* --------------------- media section ---------------------*/ }
@@ -1848,6 +1877,43 @@ header {
         display: block;
         float: left;
         width: 50%; } }
+  @media (min-width: 960px) {
+    #recent-project {
+      margin-top: -45px; }
+      #recent-project .header-wrapper {
+        height: 100px;
+        position: relative; }
+        #recent-project .header-wrapper > h2 {
+          width: 41.67%;
+          height: 100px;
+          font-size: 30px; }
+          #recent-project .header-wrapper > h2 span {
+            line-height: 100px; }
+        #recent-project .header-wrapper > .link-holder {
+          position: absolute;
+          top: 25px;
+          right: 30px;
+          display: block; }
+          #recent-project .header-wrapper > .link-holder a {
+            height: 50px;
+            border: 2px solid #eb3e3b;
+            border-radius: 25px;
+            text-align: center;
+            font-family: OpenSans, sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            color: #454545;
+            text-transform: uppercase;
+            line-height: 48px;
+            display: inline-block;
+            color: white;
+            background-color: #eb3f3c;
+            padding-left: 40px;
+            padding-right: 40px; }
+            #recent-project .header-wrapper > .link-holder a:hover {
+              text-decoration: none; }
+      #recent-project .wrapper-project-holder .project {
+        width: 33.333%; } }
 
 div #about-me {
   background-color: white;
@@ -2423,7 +2489,7 @@ div #about-me {
       font-weight: 600;
       font-size: 25px;
       color: #eb3f3c; } }
-  @media (min-width: 992px) {
+  @media (min-width: 960px) {
     #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text h4 {
       font-family: ProximaNova, sans-serif;
       font-weight: 600;
@@ -2681,7 +2747,7 @@ div #about-me {
     #contacts .content-wrapper .adress-holder {
       padding-left: 30px;
       padding-right: 30px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 960px) {
     #contacts .header-wrapper {
       padding-left: 30px;
       padding-right: 30px; }

@@ -115,43 +115,39 @@
 	}//media sm
 
 
-	@media (min-width:$screen-sm) {
-
-		.header-wrapper {
-
-			h2 {
-
-
-			}
-
-			.links-holder {
-
-
-			}
-		}//header-wraper
-
-		.wrapper-project-holder {
-
-			.project {
-
-
-
-			}
-		}
-
-	}//media sm
-
-
 	@media (min-width:$screen-md) {
-
+		margin-top: -45px;
 		.header-wrapper {
-
-			h2 {
-
-
+			height: 100px;
+			position: relative;
+			& > h2 {
+				width: 41.67%;
+				height: 100px;
+				font-size: 30px;
+				span {
+					line-height: 100px;
+				}
 			}
 
-			.links-holder {
+			& > .link-holder {
+
+				position: absolute;
+				top:25px;
+				right: 30px;
+				display: block;
+
+				a {
+					@include botton-with-radius;
+					display: inline-block;
+					color:white;
+					background-color: #eb3f3c;
+					padding-left: 40px;
+					padding-right: 40px;
+
+					&:hover {
+						text-decoration: none;
+					}
+				}
 
 
 			}
@@ -160,9 +156,7 @@
 		.wrapper-project-holder {
 
 			.project {
-
-
-
+				width: 33.333%;
 			}
 		}
 

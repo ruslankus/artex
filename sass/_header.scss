@@ -188,28 +188,38 @@ header {
 	}//media sm
 
 
-	@media (min-width:$screen-sm) {
+	@media (min-width:$screen-md) {
 
 		.wrapper {
-
+			padding-left: 0px;
+			padding-right: 0px;
+			padding-top: 70px;
+			position: relative;
 			.logo-holder {
-
+				position: absolute;
+				top: 110px;
+				left:30px;
 				a {
-
+					width: 245px;
+					img {
+						display: block;
+						width: 100%;
+					}
 				}
 			}//logo-holder
 
 
 			.header-content {
-
+				margin-top: 0;
 				div {
 
 
 					&:first-child {
-
+						padding-left: 30px;
+						padding-top: 220px;
+						width: 41.67%;
 						h2 {
-
-
+							font-size: 50px;
 						}
 
 
@@ -228,8 +238,10 @@ header {
 
 
 					&.photo-holder {
-
-
+						width: 58.33%;
+						padding-right: 150px;
+						padding-left: 30px;
+						margin-top: 0;
 
 					}
 				}
