@@ -146,7 +146,7 @@
 
 								&.quotes {
 
-
+									z-index: -333;
 									right: 20px;
 									bottom: 10px;
 									height: 26px;
@@ -350,6 +350,167 @@
 	}//screen - xs
 
 
+	@media (min-width:640px) {
+
+		.header-wrapper {
+			padding-left: 30px;
+			padding-right: 30px;
+			h2 {
+
+			}
+		}//header-wrapper
+
+		.content-wrapper {
+			padding-left: 30px;
+			padding-right: 30px;
+			
+			& > div {
+				width: 50%;
+				float: left;
+			}
+
+			.adress-holder {
+
+				padding-left: 0px;
+				padding-right: 15px;
+
+				table {
+
+					tr {
+						td {
+
+							&:first-child {
+
+							}
+
+							&:last-child {
+
+							}
+						}
+
+						&:last-child {
+
+							& > td:last-child {
+
+								& > span {
+
+								}
+							}
+						}
+					}
+
+				}
+
+				.button-holder{
+
+					a {
+
+
+						&:hover {
+
+						}
+					}
+
+				}
+			}//adress-holder
+
+			.testimonials-holder{
+				padding-left: 5px;
+				padding-right: 0px;
+
+				& > .testimonials {
+
+
+					& > .slick-dots {
+
+						li {
+
+
+							button {
+
+
+
+								&:before {
+
+								}
+
+							}
+
+							&.slick-active {
+
+								button {
+
+
+								}
+							}
+						}
+					}//.slick-dots
+
+					.testimonial {
+						margin-left: 10px;
+						margin-right: 0px;
+
+						&:focus {
+
+						}
+
+
+
+
+						.top {
+
+							p {
+
+
+								& > *  {
+
+									&.traingle {
+
+									}
+
+									&.quotes {
+
+
+
+
+										& > span {
+
+										}
+
+									}
+
+								}//img;
+
+							}//p
+
+						}//top
+
+
+						.botton {
+
+
+							span {
+
+								&:first-child {
+
+								}
+
+								&:last-child {
+
+								}
+							}
+
+						}//botton
+					}
+
+				}
+
+			}
+		}
+
+	}//screen - sm
+
+
 	@media (min-width:$screen-sm) {
 
 		.header-wrapper {
@@ -361,6 +522,8 @@
 		}//header-wrapper
 
 		.content-wrapper {
+
+
 
 			.adress-holder {
 

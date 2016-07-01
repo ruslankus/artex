@@ -16,4 +16,21 @@
 		border-top: 500px solid white;
 	}//wrapper
 
+
+/* --------------------- media section ---------------------*/
+
+	@media (min-width:640px) {
+
+		padding-top: 13%;
+		& > .wrapper {
+
+			margin-left:-2000px;
+			border-left: 2000px solid transparent;
+			border-right: 2000px solid transparent;
+
+
+		}
+
+	}//media xs
+
 }

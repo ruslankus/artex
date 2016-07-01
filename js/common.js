@@ -17,6 +17,18 @@ $(function() {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '10px',
+                    slidesToShow: 3,
+                    dots: true,
+                }
+            },
+
+
+            {
+                breakpoint: 640,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '10px',
                     slidesToShow: 2,
                     dots: true,
                 }

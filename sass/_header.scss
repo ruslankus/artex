@@ -132,6 +132,62 @@ header {
 	}//media xs
 
 
+	@media (min-width:640px) {
+
+		.wrapper {
+
+			.logo-holder {
+
+				a {
+
+				}
+			}//logo-holder
+
+
+			.header-content {
+				margin-top: 90px;
+				& > div {
+					width: 50%;
+					float: left;
+					&:first-child {
+						padding-right: 15px;
+						h2 {
+
+
+						}
+
+
+						p {
+
+
+
+						}
+
+
+						& > a {
+							margin-top: 30px;
+						}
+					}
+
+
+					&.photo-holder {
+						display: block;
+						margin-top: -55px;
+						padding-left: 15px;
+						img {
+							display: block;
+							width: 100%;
+						}
+
+					}
+				}
+			}
+
+		}//wrapper
+
+	}//media sm
+
+
 	@media (min-width:$screen-sm) {
 
 		.wrapper {

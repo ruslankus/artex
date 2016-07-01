@@ -78,6 +78,45 @@ footer {
 	}//media-xs
 
 
+	@media (min-width:640px) {
+		padding-bottom: 15px;
+		& > .wrapper {
+			padding-right: 30px;
+			padding-left: 30px;
+			& > div {
+				width: 50%;
+			}
+			.right {
+				float: left;
+
+				ul {
+					text-align: left;
+					li {
+						margin-right: 3px;
+						a {
+
+							img {
+
+							}
+						}
+					}
+				}
+			}
+
+			.left {
+				width: 50%;
+				float: right;
+				text-align: right;
+				span {
+
+				}
+
+			}
+
+		}
+	}
+
+
 	@media (min-width:$screen-sm) {
 
 		& > .wrapper {

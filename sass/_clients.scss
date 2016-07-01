@@ -72,4 +72,27 @@
 		}//slides
 
 	}//slide-holder
+
+
+	/* --------------------- media section ---------------------*/
+
+	@media (min-width:$screen-xs) {
+		& > .header-wrapper {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+
+	@media (min-width:640px) {
+
+		& > .header-wrapper {
+			padding-top: 0px;
+		}
+
+		& > .slide-holder {
+			padding-bottom: 45px;
+		}
+
+
+	}//media-640px
 }

@@ -161,6 +161,76 @@ div {
 		}//screen-xs
 
 
+		@media (min-width:640px) {
+			.wrapper {
+
+				h2 {
+					width: 52.34%;
+				}
+
+				.description {
+
+					.photo-holder {
+						padding-right: 15px;
+						width: 50%;
+						float: left;
+						img {
+
+						}
+
+					}//photo-holder
+
+
+					.text-holder {
+						padding-left: 15px;
+						width: 50%;
+						float: left;
+						p {
+
+							strong {
+
+							}
+						}
+					}//text-holder
+
+
+					.link-holder {
+						clear: both;
+						padding-top: 30px;
+						margin-top:0;
+						ul {
+							padding-right: 15px;
+							text-align: center;
+							li {
+
+
+								&:last-child {
+
+								}
+
+								a {
+
+
+								}
+							}
+						}
+
+
+						div {
+							padding-left: 15px;
+							a {
+								display: inline-block;
+								padding-left: 40px;
+								padding-right: 40px;
+							}
+						}
+
+					}//link-holder
+				}
+			}
+		}//screen-sm
+
+
 		@media (min-width:$screen-sm) {
 			.wrapper {
 
