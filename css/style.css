@@ -2542,6 +2542,8 @@ div #about-me {
     #contacts .header-wrapper {
       padding-left: 30px;
       padding-right: 30px; }
+      #contacts .header-wrapper h2 {
+        background: url("/images/artex-logo-black.svg") right no-repeat; }
     #contacts .content-wrapper .adress-holder {
       padding-left: 30px;
       padding-right: 30px; }
