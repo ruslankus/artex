@@ -184,6 +184,13 @@
             outline: none;
         }
     }//a
+
+    @media (min-width:$screen-xs) {
+        right:30px;
+    }
+
+
+
 }
 
 // animation
