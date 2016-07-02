@@ -42,7 +42,7 @@
 					text-transform: uppercase;
 					color:#eb3f3c;
 
-					span {
+					& > span {
 						display: inline-block;
 						&:first-child {
 							width: 60px;
@@ -55,12 +55,15 @@
 						}
 
 
-						&:last-child {
 
-							vertical-align: middle;
+					}
 
+					& > .wrap {
+						vertical-align: middle;
+
+						& > span {
+							display: block;
 						}
-
 					}
 
 
@@ -117,7 +120,16 @@
 
 					h4 {
 
-						img {
+						span {
+
+							&:first-child {
+
+								img {
+
+
+								}
+
+							}
 
 
 						}
@@ -150,11 +162,27 @@
 			.services-holder {
 
 				.srv {
+
+					&:nth-child(odd){
+						padding-right: 80px;
+					}
+
+					&:nth-child(even){
+						padding-right: 50px;
+					}
+
 					h4 {
 
-						img {
+						& > .wrap {
 
 
+							& > span {
+								display: inline-block;
+
+								&:first-child {
+									margin-right: 5px;
+								}
+							}
 						}
 					}
 

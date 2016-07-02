@@ -2140,13 +2140,15 @@ div #about-me {
           line-height: 18px;
           text-transform: uppercase;
           color: #eb3f3c; }
-          #services .wrapper .services-holder .srv h4 span {
+          #services .wrapper .services-holder .srv h4 > span {
             display: inline-block; }
-            #services .wrapper .services-holder .srv h4 span:first-child {
+            #services .wrapper .services-holder .srv h4 > span:first-child {
               width: 60px;
               text-align: left; }
-            #services .wrapper .services-holder .srv h4 span:last-child {
-              vertical-align: middle; }
+          #services .wrapper .services-holder .srv h4 > .wrap {
+            vertical-align: middle; }
+            #services .wrapper .services-holder .srv h4 > .wrap > span {
+              display: block; }
         #services .wrapper .services-holder .srv p {
           margin-top: 10px; }
   @media (min-width: 480px) {
@@ -2167,6 +2169,15 @@ div #about-me {
           padding-left: 15px; }
         #services .wrapper .services-holder .srv:last-child {
           margin-bottom: 30px; } }
+  @media (min-width: 768px) {
+    #services .wrapper .services-holder .srv:nth-child(odd) {
+      padding-right: 80px; }
+    #services .wrapper .services-holder .srv:nth-child(even) {
+      padding-right: 50px; }
+    #services .wrapper .services-holder .srv h4 > .wrap > span {
+      display: inline-block; }
+      #services .wrapper .services-holder .srv h4 > .wrap > span:first-child {
+        margin-right: 5px; } }
 
 #all-services {
   /* --------------------- media section ---------------------*/ }
