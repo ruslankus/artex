@@ -232,16 +232,24 @@ div {
 
 
 		@media (min-width:$screen-sm) {
+			padding-bottom: 45px;
 			.wrapper {
 
 				h2 {
-
+					width: 41.67%;
+					border-top:20px solid #eb3f3c;
+					font-size: 30px;
 				}
 
 				.description {
-
+					position: relative;
+					padding-left: 41.67%;
 					.photo-holder {
-
+						position: absolute;
+						left:0;
+						right:0;
+						width: 41.67%;
+						padding-left: 30px;
 						img {
 
 						}
@@ -250,7 +258,8 @@ div {
 
 
 					.text-holder {
-
+						width: 100%;
+						float: right;
 						p {
 
 							strong {
@@ -261,9 +270,14 @@ div {
 
 
 					.link-holder {
-
+						width: 100%;
+						float: none;
+						padding-top: 10px;
 						ul {
-
+							width: 100%;
+							float: none;
+							text-align: left;
+							padding-left: 15px;
 							li {
 
 
@@ -280,7 +294,9 @@ div {
 
 
 						div {
-
+							width: 100%;
+							float: none;
+							text-align: right;
 							a {
 
 
