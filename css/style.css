@@ -1883,7 +1883,8 @@ header {
             text-align: center;
             line-height: 50px;
             color: #d7dce0;
-            border-radius: 25px; }
+            border-radius: 25px;
+            font-size: 20px; }
             header .wrapper .links-holder li a:hover {
               color: #eb3e3b;
               border-color: #eb3e3b; } }
