@@ -2551,8 +2551,6 @@ div #about-me {
               background-color: #eb3f3c;
               color: white;
               border-color: #eb3f3c; }
-          #recent-news .content-wrapper #carousel-news .carousel-inner .item.last .item-text h4 {
-            color: #eb3f3c; }
     #recent-news .content-wrapper #carousel-news .slick-dots {
       bottom: -50px; }
       #recent-news .content-wrapper #carousel-news .slick-dots li {
@@ -2620,17 +2618,8 @@ div #about-me {
           #recent-news .read-more a:hover {
             text-decoration: none; } }
   @media (min-width: 768px) {
-    #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text h4 {
-      font-family: ProximaNova, sans-serif;
-      font-weight: 600;
-      font-size: 25px;
-      color: #eb3f3c; } }
-  @media (min-width: 960px) {
-    #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text h4 {
-      font-family: ProximaNova, sans-serif;
-      font-weight: 600;
-      font-size: 25px;
-      color: #eb3f3c; } }
+    #recent-news .header-wrapper h2 {
+      font-size: 30px; } }
   @media (min-width: 1200px) {
     #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text h4 {
       font-family: ProximaNova, sans-serif;

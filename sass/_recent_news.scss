@@ -146,17 +146,7 @@
 							}
 						}
 
-						.item-text {
 
-							h4 {
-
-								color:#eb3f3c;
-							}
-
-							p {
-
-							}
-						}
 					}
 
 
@@ -445,7 +435,7 @@
 		.header-wrapper {
 
 			h2 {
-
+				font-size: 30px;
 			}
 		}
 
@@ -494,8 +484,7 @@
 						.item-text {
 
 							h4 {
-								@include proxima_bold(25px);
-								color:#eb3f3c;
+
 							}
 
 							p {
@@ -571,8 +560,7 @@
 						.item-text {
 
 							h4 {
-								@include proxima_bold(25px);
-								color:#eb3f3c;
+								
 							}
 
 							p {

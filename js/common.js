@@ -12,12 +12,12 @@ $(function() {
         responsive: [
 
             {
-                breakpoint: 768,
+                breakpoint: 960,
                 settings: {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '10px',
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     dots: true,
                 }
             },
@@ -121,6 +121,32 @@ $(function() {
                     centerMode: false,
                     centerPadding: '0px',
                     slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: true,
+                }
+            },
+
+            {
+                breakpoint: 960,
+                settings: {
+                    infinite: false,
+                    arrows: false,
+                    centerMode: false,
+                    centerPadding: '0px',
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: true,
+                }
+            },
+
+            {
+                breakpoint: 1280,
+                settings: {
+                    infinite: false,
+                    arrows: false,
+                    centerMode: false,
+                    centerPadding: '0px',
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                     dots: true,
                 }
