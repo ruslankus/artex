@@ -2170,6 +2170,8 @@ div #about-me {
         #services .wrapper .services-holder .srv:last-child {
           margin-bottom: 30px; } }
   @media (min-width: 768px) {
+    #services .wrapper h2 {
+      font-size: 30px; }
     #services .wrapper .services-holder .srv:nth-child(odd) {
       padding-right: 80px; }
     #services .wrapper .services-holder .srv:nth-child(even) {
@@ -2213,12 +2215,12 @@ div #about-me {
           font-size: 27px;
           line-height: 21px;
           text-transform: uppercase; }
-  #all-services div:last-child .text-holder {
+  #all-services > .text-wrapper > .text-holder {
     text-align: left; }
-  #all-services div:last-child:last-child {
+  #all-services > .text-wrapper > div:last-child {
     text-align: center;
     margin-top: 30px; }
-    #all-services div:last-child:last-child > a {
+    #all-services > .text-wrapper > div:last-child > a {
       height: 50px;
       border: 2px solid #eb3e3b;
       border-radius: 25px;
@@ -2230,18 +2232,37 @@ div #about-me {
       text-transform: uppercase;
       line-height: 48px;
       display: block; }
-      #all-services div:last-child:last-child > a:hover {
+      #all-services > .text-wrapper > div:last-child > a:hover {
         text-decoration: none; }
   @media (min-width: 480px) {
     #all-services > div {
       padding-left: 30px;
       padding-right: 30px; }
-    #all-services div:last-child:last-child {
+    #all-services > .text-wrapper > div:last-child {
       text-align: left; }
-      #all-services div:last-child:last-child > a {
+      #all-services > .text-wrapper > div:last-child > a {
         display: inline-block;
         padding-right: 40px;
         padding-left: 40px; } }
+  @media (min-width: 960px) {
+    #all-services {
+      padding-top: 60px; }
+      #all-services .header-wrapper {
+        padding-right: 0px;
+        width: 41.67%;
+        float: left; }
+        #all-services .header-wrapper h2 > span:first-child {
+          font-size: 120px;
+          width: 140px; }
+        #all-services .header-wrapper h2 > span:last-child {
+          font-size: 33px;
+          width: 215px;
+          line-height: 25px; }
+      #all-services > .text-wrapper {
+        width: 58.33%;
+        float: right;
+        margin-top: 0px;
+        padding-left: 15px; } }
 
 /* Slider */
 .slick-slider {
@@ -2466,7 +2487,8 @@ div #about-me {
       background: none; }
       #recent-news .content-wrapper #carousel-news .carousel-inner .item {
         padding: 25px 15px;
-        width: 100%; }
+        width: 100%;
+        background-color: #f6f8f9; }
         #recent-news .content-wrapper #carousel-news .carousel-inner .item:focus {
           outline: none; }
         #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-head > div:first-child {
@@ -2499,7 +2521,7 @@ div #about-me {
             #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-head > div:last-child .heart > span {
               position: absolute;
               display: block;
-              background-color: white;
+              background-color: #f6f8f9;
               color: #60707c;
               font-family: ProximaNova, sans-serif;
               font-weight: 600;
@@ -2510,7 +2532,7 @@ div #about-me {
               padding-top: 2px;
               padding-bottom: 2px;
               border-radius: 10px;
-              border: 2px solid #60707c;
+              border: 2px solid #d7dce0;
               bottom: 0px;
               left: -18px; }
         #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text h4 {
@@ -2520,13 +2542,15 @@ div #about-me {
           color: #60707c; }
         #recent-news .content-wrapper #carousel-news .carousel-inner .item.last {
           border: 2px solid #d8dde1;
-          border-radius: 5px; }
+          border-radius: 5px;
+          background-color: white; }
           #recent-news .content-wrapper #carousel-news .carousel-inner .item.last .item-head > div:last-child .heart {
             border: 2px solid #eb3f3c;
             background: url("/images/news_heart_sprite.png") top no-repeat; }
             #recent-news .content-wrapper #carousel-news .carousel-inner .item.last .item-head > div:last-child .heart > span {
               background-color: #eb3f3c;
-              color: white; }
+              color: white;
+              border-color: #eb3f3c; }
           #recent-news .content-wrapper #carousel-news .carousel-inner .item.last .item-text h4 {
             color: #eb3f3c; }
     #recent-news .content-wrapper #carousel-news .slick-dots {
@@ -2570,6 +2594,11 @@ div #about-me {
   @media (min-width: 640px) {
     #recent-news {
       padding-bottom: 0px; }
+      #recent-news .content-wrapper #carousel-news .carousel-inner {
+        margin-left: -10px; }
+        #recent-news .content-wrapper #carousel-news .carousel-inner .item {
+          margin-right: 10px;
+          margin-left: 10px; }
       #recent-news .read-more {
         margin-top: 45px;
         text-align: center;
