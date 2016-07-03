@@ -95,4 +95,15 @@
 
 
 	}//media-640px
+
+	@media (min-width:$screen-md) {
+
+		& > .header-wrapper {
+
+			& > h2 {
+				font-size: 30px;
+			}
+		}
+
+	}
 }

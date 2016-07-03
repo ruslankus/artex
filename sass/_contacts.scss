@@ -517,13 +517,12 @@
 			padding-left: 30px;
 			padding-right: 30px;
 			h2 {
-
+				font-size: 30px;
+				line-height: 0.85;
 			}
 		}//header-wrapper
 
 		.content-wrapper {
-
-
 
 			.adress-holder {
 
@@ -561,7 +560,6 @@
 
 					a {
 
-
 						&:hover {
 
 						}
@@ -580,10 +578,7 @@
 
 						li {
 
-
 							button {
-
-
 
 								&:before {
 
@@ -676,11 +671,12 @@
 		}//header-wrapper
 
 		.content-wrapper {
-
+			padding-left: 0px;
+			padding-right: 0px;
 			.adress-holder {
-
 				padding-left: 30px;
-				padding-right: 30px;
+				padding-right: 0px;
+				width: 32.29%;
 
 				table {
 
@@ -723,19 +719,17 @@
 			}//adress-holder
 
 			.testimonials-holder{
-
-
+				width: 67.71%;
+				padding-right:0px;
+				padding-left: 30px;
 				& > .testimonials {
 
 
 					& > .slick-dots {
-
+						padding-right:30px;
 						li {
 
-
 							button {
-
-
 
 								&:before {
 
@@ -747,15 +741,14 @@
 
 								button {
 
-
 								}
 							}
 						}
 					}//.slick-dots
 
 					.testimonial {
-
-
+						margin-left: 0px;
+						margin-right: 30px;
 						&:focus {
 
 						}

@@ -193,6 +193,18 @@ $(function() {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '0px',
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
+                }
+            },
+
+            {
+                breakpoint: 1280,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '0px',
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     dots: true,
