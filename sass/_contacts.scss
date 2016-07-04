@@ -814,8 +814,8 @@
 	@media (min-width:$screen-lg) {
 
 		.header-wrapper {
-			padding-left: 30px;
-			padding-right: 30px;
+			padding-left: 85px;
+			padding-right: 85px;
 			h2 {
 
 			}
@@ -825,9 +825,8 @@
 
 			.adress-holder {
 
-				padding-left: 30px;
-				padding-right: 30px;
-
+				padding-left: 85px;
+				width:26.6%;
 				table {
 
 					tr {
@@ -869,8 +868,8 @@
 			}//adress-holder
 
 			.testimonials-holder{
-
-
+				padding-right:55px;
+				width: 73.4%;
 				& > .testimonials {
 
 
@@ -959,6 +958,8 @@
 
 			}
 		}
+
+
 
 
 	}//screen - lg

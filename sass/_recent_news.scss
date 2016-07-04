@@ -517,11 +517,9 @@
 
 		.content-wrapper {
 
-
 			#carousel-news {
 
 				.carousel-inner {
-
 
 					.item {
 
@@ -577,13 +575,13 @@
 
 			}//#carousel-news
 
-
 		}
 
 	}//media md
 
 	@media (min-width:$screen-lg) {
-
+		padding-left: 85px;
+		padding-right: 85px;
 		.header-wrapper {
 
 			h2 {

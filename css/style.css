@@ -2753,11 +2753,14 @@ div #about-me {
     #recent-news .header-wrapper h2 {
       font-size: 30px; } }
   @media (min-width: 1280px) {
-    #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text h4 {
-      font-family: ProximaNova, sans-serif;
-      font-weight: 600;
-      font-size: 25px;
-      color: #eb3f3c; } }
+    #recent-news {
+      padding-left: 85px;
+      padding-right: 85px; }
+      #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text h4 {
+        font-family: ProximaNova, sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        color: #eb3f3c; } }
 
 #triangle {
   background-color: #eb3f3c;
@@ -2839,6 +2842,15 @@ div #about-me {
   @media (min-width: 960px) {
     #clients > .header-wrapper > h2 {
       font-size: 30px; } }
+  @media (min-width: 1280px) {
+    #clients > .header-wrapper {
+      padding-left: 85px;
+      padding-right: 85px; }
+      #clients > .header-wrapper > h2 {
+        font-size: 30px; }
+    #clients > .slide-holder {
+      padding-right: 85px;
+      padding-left: 85px; } }
 
 #contacts {
   background-color: #2b2e31;
@@ -3032,11 +3044,14 @@ div #about-me {
           margin-right: 30px; } }
   @media (min-width: 1280px) {
     #contacts .header-wrapper {
-      padding-left: 30px;
-      padding-right: 30px; }
+      padding-left: 85px;
+      padding-right: 85px; }
     #contacts .content-wrapper .adress-holder {
-      padding-left: 30px;
-      padding-right: 30px; } }
+      padding-left: 85px;
+      width: 26.6%; }
+    #contacts .content-wrapper .testimonials-holder {
+      padding-right: 55px;
+      width: 73.4%; } }
 
 footer {
   background-color: #26292c;
@@ -3078,3 +3093,7 @@ footer {
           width: 50%;
           float: right;
           text-align: right; } }
+  @media (min-width: 1280px) {
+    footer > .wrapper {
+      padding-right: 85px;
+      padding-left: 85px; } }

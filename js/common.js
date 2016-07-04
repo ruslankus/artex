@@ -139,7 +139,7 @@ $(function() {
             },
 
             {
-                breakpoint: 1280,
+                breakpoint: 2000,
                 settings: {
                     infinite: false,
                     arrows: false,
@@ -157,10 +157,11 @@ $(function() {
     $('.testimonials').slick({
 
         centerMode: true,
-        centerPadding: '10px',
+        centerPadding: '0px',
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         arrows: false,
+        dots: true,
         responsive: [
 
             {

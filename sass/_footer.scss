@@ -187,7 +187,8 @@ footer {
 	@media (min-width:$screen-lg) {
 
 		& > .wrapper {
-
+			padding-right: 85px;
+			padding-left: 85px;
 			.right {
 
 				ul {

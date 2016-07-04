@@ -106,4 +106,21 @@
 		}
 
 	}
+
+	@media (min-width:$screen-lg) {
+
+		& > .header-wrapper {
+			padding-left: 85px;
+			padding-right: 85px;
+			& > h2 {
+				font-size: 30px;
+			}
+		}
+
+		& > .slide-holder {
+			padding-right: 85px;
+			padding-left: 85px;
+		}
+
+	}
 }
