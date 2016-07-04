@@ -62,10 +62,10 @@
 
             .menu {
 
+
                 li {
 
                     a {
-
 
                     }
                 }
@@ -102,28 +102,47 @@
         }//wrapper
     }
 
-    @media (min-width:$screen-lg) {
+	@media (min-width:$screen-lg) {
+		display: block;
+		left:0;
+		z-index: 30;
+		width: 100%;
+		height: 80px;
+		overflow: auto;
+		background-color: transparent;
+		.wrapper {
+			padding-right: 85px;
+			padding-left: 85px;
+			padding-top: 35px;
+			.menu {
+				text-align: right;
 
-        .wrapper {
+				li {
+					display: inline;
+					margin-left: 30px;
+					&:first-child {
+						margin-left: 0;
+					}
+					a {
+						color:#454545;
 
-            .menu {
+						&:hover {
+							color:#eb3e3b;
+							text-decoration: none;
+						}
 
-                li {
-
-                    a {
-
-
-                    }
-                }
+					}
+				}
 
 
-            }//menu
+			}//menu
 
 
 
 
-        }//wrapper
-    }
+		}//wrapper
+	}
+
 
 }//top-section
 
@@ -188,6 +207,11 @@
     @media (min-width:$screen-xs) {
         right:30px;
     }
+
+
+	@media (min-width:$screen-lg) {
+		display: none;
+	}
 
 
 

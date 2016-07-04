@@ -165,15 +165,23 @@
 	@media (min-width:$screen-lg) {
 
 		.header-wrapper {
+			height: 140px;
+			& > h2 {
+				height:100%;
+				width: 46.33%;
 
-			h2 {
-
+				& > span {
+					padding-left: 85px;
+					line-height: 140px;
+					height: inherit;
+				}
 
 			}
 
-			.links-holder {
-
-
+			.link-holder {
+				//width: 53.67%;
+				top:45px;
+				right:85px;
 			}
 		}//header-wraper
 
