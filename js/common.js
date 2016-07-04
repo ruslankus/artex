@@ -64,7 +64,6 @@ $(function() {
 
     });
 
-
     $('.carousel-inner').slick({
         infinite: true,
         centerMode: true,
@@ -263,7 +262,7 @@ $(function() {
 });
 
 /*
-function getHeight() {
+function getBlockHeight(block_name) {
     return  $(window).height();
 }
 */

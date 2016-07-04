@@ -233,29 +233,55 @@
 	}//media md
 
 	@media (min-width:$screen-lg) {
-
+		width: 53.67%;
+		float: right;
 		.wrapper {
-
+			padding-left: 55px;
+			padding-top: 60px;
+			padding-right: 0;
+			height: 620px;
 			h2 {
 
 
 			}
 
 
-			p {
-
+			& > p {
+				margin-top: 35px;
+				padding-right: 85px;
 
 			}
 
 			.services-holder {
-
+				margin-top: 20px;
 				.srv {
+
+					&:nth-child(odd){
+						padding-right: 20px;
+					}
+
+					&:nth-child(even){
+						padding-right: 20px;
+					}
+
+
 					h4 {
+						height: 45px;
 
-						img {
+						& > span {
 
+							&:first-child {
+								height: 45px;
+								line-height: 45px;
+								img {
+									vertical-align: middle;
 
+								}
+
+							}
 						}
+
+
 					}
 
 					p {

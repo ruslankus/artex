@@ -2043,6 +2043,8 @@ header {
         top: 45px;
         right: 85px; } }
 
+div.services_and_about_me {
+  display: table; }
 div #about-me {
   background-color: white;
   padding-bottom: 50px;
@@ -2175,6 +2177,30 @@ div #about-me {
             width: 100%;
             float: none;
             text-align: right; } }
+  @media (min-width: 1280px) {
+    div #about-me {
+      width: 46.33%;
+      float: left;
+      padding-bottom: 0;
+      overflow: hidden; }
+      div #about-me .wrapper {
+        height: 620px; }
+        div #about-me .wrapper h2 {
+          width: 100%;
+          border-width: 40px;
+          padding-top: 25px; }
+        div #about-me .wrapper .description {
+          padding-left: 32.55%; }
+          div #about-me .wrapper .description .photo-holder {
+            width: 32.55%;
+            overflow: hidden;
+            padding-left: 0;
+            padding-right: 0; }
+            div #about-me .wrapper .description .photo-holder img {
+              display: block;
+              width: 240%;
+              position: relative;
+              right: 90%; } }
 
 #services {
   background-color: #eceff2;
@@ -2249,6 +2275,31 @@ div #about-me {
       display: inline-block; }
       #services .wrapper .services-holder .srv h4 > .wrap > span:first-child {
         margin-right: 5px; } }
+  @media (min-width: 1280px) {
+    #services {
+      width: 53.67%;
+      float: right; }
+      #services .wrapper {
+        padding-left: 55px;
+        padding-top: 60px;
+        padding-right: 0;
+        height: 620px; }
+        #services .wrapper > p {
+          margin-top: 35px;
+          padding-right: 85px; }
+        #services .wrapper .services-holder {
+          margin-top: 20px; }
+          #services .wrapper .services-holder .srv:nth-child(odd) {
+            padding-right: 20px; }
+          #services .wrapper .services-holder .srv:nth-child(even) {
+            padding-right: 20px; }
+          #services .wrapper .services-holder .srv h4 {
+            height: 45px; }
+            #services .wrapper .services-holder .srv h4 > span:first-child {
+              height: 45px;
+              line-height: 45px; }
+              #services .wrapper .services-holder .srv h4 > span:first-child img {
+                vertical-align: middle; } }
 
 #all-services {
   /* --------------------- media section ---------------------*/ }
@@ -2332,6 +2383,18 @@ div #about-me {
         float: right;
         margin-top: 0px;
         padding-left: 15px; } }
+  @media (min-width: 1280px) {
+    #all-services {
+      padding-bottom: 60px;
+      clear: both; }
+      #all-services > .header-wrapper {
+        width: 46.33%; }
+        #all-services > .header-wrapper h2 {
+          text-align: right;
+          padding-right: 55px; }
+      #all-services > .text-wrapper {
+        width: 53.67%;
+        padding-left: 0; } }
 
 /* Slider */
 .slick-slider {

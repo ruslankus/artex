@@ -201,17 +201,20 @@
 
 
 	@media (min-width:$screen-lg) {
-
-		.header-wrapper {
-
+		padding-bottom: 60px;
+		clear:both;
+		&  > .header-wrapper {
+			width: 46.33%;
 			h2 {
-
+				text-align: right;
+				padding-right: 55px;
 
 			}
 		}// header -wrapper
 
-		div {
-
+		& > .text-wrapper {
+			width: 53.67%;
+			padding-left: 0;
 			&:last-child {
 
 				.text-holder {
