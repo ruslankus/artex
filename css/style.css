@@ -3138,9 +3138,23 @@ footer {
       text-align: center; }
       footer > .wrapper .right ul li {
         display: inline-block;
+        width: 50px;
+        height: 50px;
         margin-right: 4px; }
         footer > .wrapper .right ul li:last-child {
           margin-left: 0; }
+        footer > .wrapper .right ul li a {
+          display: block;
+          text-align: center;
+          line-height: 48px;
+          color: #41484e;
+          border: 2px solid #41484e;
+          border-radius: 50%;
+          font-size: 21px;
+          width: 50px;
+          height: 50px; }
+          footer > .wrapper .right ul li a:focus {
+            outline: none; }
     footer > .wrapper .left {
       margin-top: 20px;
       text-align: center; }
@@ -3164,7 +3178,8 @@ footer {
         footer > .wrapper .left {
           width: 50%;
           float: right;
-          text-align: right; } }
+          text-align: right;
+          margin-top: 5px; } }
   @media (min-width: 1280px) {
     footer > .wrapper {
       padding-right: 85px;
