@@ -41,6 +41,17 @@
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('/fonts/ProximaNova-Regular.eot');
+    src: url('/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ProximaNova-Regular.woff') format('woff'),
+    url('/fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
 @font-face {
     font-family: 'ProximaNova';
     src: url('/fonts/ProximaNova-Bold.eot');
@@ -140,6 +151,13 @@
 @mixin opensans_bold($size){
     font-family: OpenSans, sans-serif;
     font-weight: 600;
+    font-size: $size;
+}
+
+
+@mixin proxima_regular($size){
+    font-family: ProximaNova, sans-serif;
+    font-weight: 400;
     font-size: $size;
 }
 
