@@ -218,7 +218,7 @@ $(function() {
     $("#menu-button > a").on('touchstart click', function(e) {
         e.preventDefault();
 
-       
+        $("#menu-button").removeClass('up').removeClass('down');
 
         var $body = $( 'body' ),
             $page = $( '#main-wrapper' ),
