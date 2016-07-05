@@ -1663,7 +1663,12 @@ body {
       width: 100%;
       height: 80px;
       overflow: auto;
-      background-color: transparent; }
+      background-color: transparent;
+      transition: top 0.3s ease-out 0.3s; }
+      #top-section.down {
+        top: -90px; }
+      #top-section.up {
+        top: 0; }
       #top-section .wrapper {
         padding-right: 85px;
         padding-left: 85px;
@@ -1693,7 +1698,12 @@ body {
   position: fixed;
   top: 20px;
   right: 20px;
-  z-index: 40; }
+  z-index: 40;
+  transition: top 0.3s ease-out 0.3s; }
+  #menu-button.down {
+    top: -50px; }
+  #menu-button.up {
+    top: 20px; }
   #menu-button a {
     display: block;
     width: 50px;
@@ -1761,6 +1771,10 @@ body {
 
 .menu-visible #main-wrapper {
   right: 100%; }
+.menu-visible #menu-button.down {
+  top: 20px; }
+.menu-visible #menu-button.up {
+  top: 20px; }
 .menu-visible #menu-button a {
   border-color: white; }
   .menu-visible #menu-button a span {

@@ -218,6 +218,8 @@ $(function() {
     $("#menu-button > a").on('touchstart click', function(e) {
         e.preventDefault();
 
+       
+
         var $body = $( 'body' ),
             $page = $( '#main-wrapper' ),
             //$menu = $( '#top-section' ),
@@ -258,7 +260,23 @@ $(function() {
 
     });
 
-
+     /*---------------  scrolling direction detection ------------------*/
+    var lastScrollTop = 0;
+    $(window).scroll(function(event){
+        var st = $(this).scrollTop();
+        if (st > lastScrollTop){
+            // downscroll code
+            $("#menu-button").removeClass("up").addClass('down');
+            $("#top-section").removeClass("up").addClass('down');
+            console.log('down');
+        } else {
+            // upscroll code
+            $("#menu-button").removeClass("down").addClass('up');
+            $("#top-section").removeClass("down").addClass('up');
+            console.log('up');
+        }
+        lastScrollTop = st;
+    });
 
 });
 

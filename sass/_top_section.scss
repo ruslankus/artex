@@ -110,6 +110,15 @@
 		height: 80px;
 		overflow: auto;
 		background-color: transparent;
+        transition: top 0.3s ease-out 0.3s;
+        &.down {
+            top:-90px;
+        }
+
+        &.up {
+            top:0;
+        }
+
 		.wrapper {
 			padding-right: 85px;
 			padding-left: 85px;
@@ -161,6 +170,15 @@
     top:20px;
     right:20px;
     z-index: 40;
+    transition: top 0.3s ease-out 0.3s;
+    &.down {
+        top:-50px;
+    }
+
+    &.up {
+        top:20px;
+    }
+
     a {
 
         display:block;
@@ -309,7 +327,13 @@
     }
 
     #menu-button {
+        &.down {
+            top:20px;
+        }
 
+        &.up {
+            top:20px;
+        }
         a {
 
             border-color: white;
