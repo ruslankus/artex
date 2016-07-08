@@ -77,6 +77,14 @@ div {
 							display: block;
 							@include botton-with-radius;
 
+							&:hover {
+
+								text-decoration: none;
+								background-color: #eb3e3b;
+								color: white;
+								cursor: pointer;
+
+							}
 						}
 					}
 

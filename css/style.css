@@ -1730,9 +1730,9 @@ body {
       #menu-button a span:first-child {
         margin-top: 16px; }
     #menu-button a:hover {
-      border-color: #eb3e3b; }
+      border-color: #c42c2a; }
       #menu-button a:hover span {
-        background-color: #eb3e3b; }
+        background-color: #c42c2a; }
     #menu-button a:focus {
       outline: none; }
   @media (min-width: 480px) {
@@ -1846,7 +1846,9 @@ header {
           line-height: 48px; }
           header .wrapper .header-content div:first-child a:hover {
             text-decoration: none;
-            cursor: pointer; }
+            cursor: pointer;
+            background-color: #eb3e3b;
+            color: white; }
       header .wrapper .header-content div.photo-holder {
         display: none; }
     header .wrapper .links-holder {
@@ -2185,6 +2187,11 @@ div #about-me {
           color: #454545;
           text-transform: uppercase;
           line-height: 48px; }
+          div #about-me .wrapper .description .link-holder div a:hover {
+            text-decoration: none;
+            background-color: #eb3e3b;
+            color: white;
+            cursor: pointer; }
   @media (min-width: 480px) {
     div #about-me {
       padding-bottom: 40px; }
@@ -2439,7 +2446,9 @@ div #about-me {
       line-height: 48px;
       display: block; }
       #all-services > .text-wrapper > div:last-child > a:hover {
-        text-decoration: none; }
+        text-decoration: none;
+        background-color: #eb3e3b;
+        color: white; }
   @media (min-width: 480px) {
     #all-services > div {
       padding-left: 30px;
@@ -2834,7 +2843,9 @@ div #about-me {
           padding-left: 60px;
           padding-right: 60px; }
           #recent-news .read-more a:hover {
-            text-decoration: none; } }
+            text-decoration: none;
+            background-color: #eb3e3b;
+            color: white; } }
   @media (min-width: 768px) {
     #recent-news .header-wrapper h2 {
       font-size: 30px; } }
@@ -2994,7 +3005,9 @@ div #about-me {
           line-height: 48px;
           color: white; }
           #contacts .content-wrapper .adress-holder .button-holder a:hover {
-            text-decoration: none; }
+            text-decoration: none;
+            background-color: #eb3e3b;
+            color: #2b2e31; }
     #contacts .content-wrapper .testimonials-holder > .testimonials {
       padding-bottom: 60px;
       margin-bottom: 0; }
