@@ -1685,6 +1685,10 @@ body {
               #top-section .wrapper .menu li a:hover {
                 color: #eb3e3b;
                 text-decoration: none; } }
+  @media (min-width: 1700px) {
+    #top-section .wrapper {
+      padding-right: 125px;
+      padding-left: 125px; } }
 
 #main-wrapper {
   position: relative;
@@ -1947,6 +1951,34 @@ header {
         top: 150px; }
         header .wrapper .logo-holder a {
           width: 368px; }
+      header .wrapper .header-content div:first-child {
+        padding-top: 385px;
+        padding-left: 0;
+        padding-right: 50px;
+        width: 48.2%; }
+        header .wrapper .header-content div:first-child h2 {
+          font-size: 65px;
+          line-height: 55px; }
+        header .wrapper .header-content div:first-child p {
+          font-size: 17px;
+          line-height: 23px; }
+      header .wrapper .header-content div.photo-holder {
+        width: 51.8%;
+        padding-top: 40px;
+        padding-left: 0;
+        padding-right: 85px; }
+      header .wrapper .links-holder {
+        right: 85px;
+        top: 145px; } }
+  @media (min-width: 1700px) {
+    header .wrapper {
+      padding-left: 125px;
+      padding-right: 125px; }
+      header .wrapper .logo-holder {
+        left: 85px;
+        top: 150px; }
+        header .wrapper .logo-holder a {
+          width: 645px; }
       header .wrapper .header-content div:first-child {
         padding-top: 385px;
         padding-left: 0;

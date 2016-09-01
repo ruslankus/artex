@@ -152,6 +152,47 @@
 		}//wrapper
 	}
 
+    @media (min-width:$screen-vb) {
+
+        &.down {
+
+        }
+
+        &.up {
+
+        }
+
+        .wrapper {
+            padding-right: 125px;
+            padding-left: 125px;
+
+            .menu {
+
+
+                li {
+
+                    &:first-child {
+
+                    }
+                    a {
+
+
+                        &:hover {
+
+                        }
+
+                    }
+                }
+
+
+            }//menu
+
+
+
+
+        }//wrapper
+    }
+
 
 }//top-section
 
