@@ -1976,23 +1976,23 @@ header {
       padding-right: 125px; }
       header .wrapper .logo-holder {
         left: 85px;
-        top: 150px; }
+        top: 200px; }
         header .wrapper .logo-holder a {
           width: 645px; }
       header .wrapper .header-content div:first-child {
-        padding-top: 385px;
+        padding-top: 650px;
         padding-left: 0;
         padding-right: 50px;
         width: 48.2%; }
         header .wrapper .header-content div:first-child h2 {
-          font-size: 65px;
-          line-height: 55px; }
+          font-size: 80px;
+          line-height: 70px; }
         header .wrapper .header-content div:first-child p {
-          font-size: 17px;
-          line-height: 23px; }
+          font-size: 20px;
+          line-height: 27px; }
       header .wrapper .header-content div.photo-holder {
         width: 51.8%;
-        padding-top: 40px;
+        padding-top: 100px;
         padding-left: 0;
         padding-right: 85px; }
       header .wrapper .links-holder {
