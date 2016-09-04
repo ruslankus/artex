@@ -456,7 +456,82 @@ div {
 			}
 		}//screen-lg
 
+		@media (min-width:$screen-vb) {
+			width: 42.9%;
 
+			.wrapper {
+				height: 730px;
+				h2 {
+					padding-top: 50px;
+					border-width: 60px;
+					font-size: 40px;
+					margin-bottom: 0;
+				}
+
+				.description {
+					padding-left: 34.25%;
+					.photo-holder {
+						width: 34.25%;
+						overflow: hidden;
+						padding-left: 0;
+						padding-right: 0;
+						img {
+							display: block;
+							width: 240%;
+							position: relative;
+							right: 90%;
+						}
+
+					}//photo-holder
+
+
+					.text-holder {
+						padding-left: 55px;
+						padding-top: 40px;
+						p {
+							font-size: 16px;
+							line-height: 22px;
+							margin-bottom: 30px;
+							strong {
+								font-size: 16px;
+								line-height: 22px;
+							}
+						}
+					}//text-holder
+
+
+					.link-holder {
+						padding-top: 0;
+						ul {
+							padding-left: 50px;
+							li {
+
+
+								&:last-child {
+
+								}
+
+								a {
+
+
+								}
+							}
+						}
+
+
+						div {
+							margin-top: 35px;
+							a {
+
+
+
+							}
+						}
+
+					}//link-holder
+				}
+			}
+		}//screen-lg
 
 	} //about_me
 

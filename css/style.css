@@ -2341,6 +2341,44 @@ div #about-me {
               width: 240%;
               position: relative;
               right: 90%; } }
+  @media (min-width: 1700px) {
+    div #about-me {
+      width: 42.9%; }
+      div #about-me .wrapper {
+        height: 730px; }
+        div #about-me .wrapper h2 {
+          padding-top: 50px;
+          border-width: 60px;
+          font-size: 40px;
+          margin-bottom: 0; }
+        div #about-me .wrapper .description {
+          padding-left: 34.25%; }
+          div #about-me .wrapper .description .photo-holder {
+            width: 34.25%;
+            overflow: hidden;
+            padding-left: 0;
+            padding-right: 0; }
+            div #about-me .wrapper .description .photo-holder img {
+              display: block;
+              width: 240%;
+              position: relative;
+              right: 90%; }
+          div #about-me .wrapper .description .text-holder {
+            padding-left: 55px;
+            padding-top: 40px; }
+            div #about-me .wrapper .description .text-holder p {
+              font-size: 16px;
+              line-height: 22px;
+              margin-bottom: 30px; }
+              div #about-me .wrapper .description .text-holder p strong {
+                font-size: 16px;
+                line-height: 22px; }
+          div #about-me .wrapper .description .link-holder {
+            padding-top: 0; }
+            div #about-me .wrapper .description .link-holder ul {
+              padding-left: 50px; }
+            div #about-me .wrapper .description .link-holder div {
+              margin-top: 35px; } }
 
 #services {
   background-color: #eceff2;
@@ -2440,6 +2478,44 @@ div #about-me {
               line-height: 45px; }
               #services .wrapper .services-holder .srv h4 > span:first-child img {
                 vertical-align: middle; } }
+  @media (min-width: 1700px) {
+    #services {
+      width: 57.1%;
+      float: right; }
+      #services .wrapper {
+        padding-left: 100px;
+        padding-top: 110px;
+        padding-right: 125px;
+        height: 730px; }
+        #services .wrapper h2 {
+          font-size: 40px; }
+        #services .wrapper > p {
+          margin-top: 35px;
+          padding-right: 0px;
+          font-size: 16px;
+          line-height: 22px; }
+        #services .wrapper .services-holder {
+          margin-top: 20px; }
+          #services .wrapper .services-holder .srv:nth-child(odd) {
+            padding-right: 20px; }
+          #services .wrapper .services-holder .srv:nth-child(even) {
+            padding-right: 20px; }
+          #services .wrapper .services-holder .srv h4 {
+            height: auto; }
+            #services .wrapper .services-holder .srv h4 > span {
+              display: block;
+              text-align: left; }
+              #services .wrapper .services-holder .srv h4 > span:first-child {
+                height: 45px;
+                line-height: 45px; }
+                #services .wrapper .services-holder .srv h4 > span:first-child img {
+                  vertical-align: middle; }
+              #services .wrapper .services-holder .srv h4 > span:last-child {
+                padding-top: 20px;
+                padding-bottom: 0; }
+          #services .wrapper .services-holder .srv p {
+            font-size: 16px;
+            line-height: 22px; } }
 
 #all-services {
   /* --------------------- media section ---------------------*/ }
