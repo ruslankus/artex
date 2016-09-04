@@ -307,4 +307,40 @@
 		}
 
 	}//media lg
+
+	@media (min-width:$screen-vb) {
+
+		.header-wrapper {
+			height: 200px;
+			& > h2 {
+				font-size: 40px;
+				height:100%;
+				width: 46.33%;
+
+				& > span {
+					padding-left: 125px;
+					line-height: 140px;
+					padding-top: 60px;
+					height: inherit;
+				}
+
+			}
+
+			.link-holder {
+				//width: 53.67%;
+				top:100px;
+				right:125px;
+			}
+		}//header-wraper
+
+		.wrapper-project-holder {
+
+			.project {
+
+
+
+			}
+		}
+
+	}//media lg
 }

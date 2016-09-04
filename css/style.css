@@ -2162,6 +2162,21 @@ header {
       #recent-project .header-wrapper .link-holder {
         top: 45px;
         right: 85px; } }
+  @media (min-width: 1700px) {
+    #recent-project .header-wrapper {
+      height: 200px; }
+      #recent-project .header-wrapper > h2 {
+        font-size: 40px;
+        height: 100%;
+        width: 46.33%; }
+        #recent-project .header-wrapper > h2 > span {
+          padding-left: 125px;
+          line-height: 140px;
+          padding-top: 60px;
+          height: inherit; }
+      #recent-project .header-wrapper .link-holder {
+        top: 100px;
+        right: 125px; } }
 
 div.services_and_about_me {
   display: table; }
