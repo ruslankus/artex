@@ -1,5 +1,5 @@
 $(function() {
-
+    //cleints courusell
     $(".slides").slick({
 
         centerMode: true,
@@ -64,13 +64,16 @@ $(function() {
 
     });
 
+
+    //recent news
     $('.carousel-inner').slick({
-        infinite: true,
-        centerMode: true,
-        centerPadding: '10px',
+        infinite: false,
+        centerMode: false,
+        centerPadding: '0px',
         slidesToShow: 3,
-        slidesToScroll: 3,
-        arrows: false,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
         responsive: [
 
             {
@@ -139,7 +142,7 @@ $(function() {
             },
 
             {
-                breakpoint: 2000,
+                breakpoint: 1700,
                 settings: {
                     infinite: false,
                     arrows: false,
