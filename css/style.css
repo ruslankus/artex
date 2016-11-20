@@ -3003,13 +3003,35 @@ div #about-me {
         color: #eb3f3c; } }
   @media (min-width: 1700px) {
     #recent-news {
-      padding-left: 125px;
-      padding-right: 125px; }
-      #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text h4 {
-        font-family: ProximaNova, sans-serif;
-        font-weight: 600;
-        font-size: 25px;
-        color: #eb3f3c; } }
+      padding-left: 0;
+      padding-right: 0;
+      width: 1450px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 115px; }
+      #recent-news .header-wrapper h2 {
+        text-align: center;
+        font-size: 40px; }
+      #recent-news .content-wrapper {
+        margin-top: 60px; }
+        #recent-news .content-wrapper #carousel-news .carousel-inner {
+          padding-left: 100px;
+          padding-right: 100px;
+          height: 390px; }
+          #recent-news .content-wrapper #carousel-news .carousel-inner .item {
+            height: 390px;
+            padding-top: 45px; }
+            #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-head div:first-child h5 {
+              font-size: 16px; }
+            #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text h4 {
+              font-family: ProximaNova, sans-serif;
+              font-weight: 600;
+              font-size: 35px; }
+            #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text p {
+              font-size: 16px;
+              margin-top: 15px; }
+        #recent-news .content-wrapper #carousel-news .slick-dots {
+          position: relative; } }
 
 #triangle {
   background-color: #eb3f3c;
