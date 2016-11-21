@@ -3,13 +3,29 @@ $(function() {
     $(".slides").slick({
 
         centerMode: true,
-        centerPadding: '10px',
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        centerPadding: '0px',
+        slidesToShow: 8,
+        slidesToScroll: 1,
         arrows: false,
 
 
         responsive: [
+
+
+            {
+                breakpoint: 1700,
+                settings: {
+                    //infinite: false,
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 9,
+                    slidesToScroll: 1,
+                    dots: true,
+
+                }
+            },
+
 
             {
                 breakpoint: 960,
@@ -75,6 +91,10 @@ $(function() {
         arrows: true,
         dots: true,
         responsive: [
+
+
+
+
 
             {
                 breakpoint: 360,
@@ -151,6 +171,7 @@ $(function() {
                     slidesToShow: 3,
                     slidesToScroll: 1,
                     dots: true,
+
                 }
             },
         ]

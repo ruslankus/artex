@@ -3056,6 +3056,9 @@ div #about-me {
         margin-left: -2000px;
         border-left: 2000px solid transparent;
         border-right: 2000px solid transparent; } }
+  @media (min-width: 1700px) {
+    #triangle {
+      margin-top: -90px; } }
 
 #clients {
   background-color: #eb3f3c;
@@ -3122,6 +3125,25 @@ div #about-me {
     #clients > .slide-holder {
       padding-right: 85px;
       padding-left: 85px; } }
+  @media (min-width: 1700px) {
+    #clients > .header-wrapper {
+      width: 1450px;
+      margin-left: auto;
+      margin-right: auto; }
+      #clients > .header-wrapper > h2 {
+        font-size: 40px; }
+    #clients > .slide-holder {
+      width: 1450px;
+      margin-left: auto;
+      margin-right: auto; }
+      #clients > .slide-holder .slides .slide .img-holder > img {
+        display: block; }
+        #clients > .slide-holder .slides .slide .img-holder > img.sm {
+          width: 65px; }
+        #clients > .slide-holder .slides .slide .img-holder > img.md {
+          width: 90px; }
+        #clients > .slide-holder .slides .slide .img-holder > img.lg {
+          width: 130px; } }
 
 #contacts {
   background-color: #2b2e31;

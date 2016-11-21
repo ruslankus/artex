@@ -123,4 +123,55 @@
 		}
 
 	}
+
+
+
+	@media (min-width:$screen-vb) {
+
+		& > .header-wrapper {
+			width: 1450px;
+			margin-left:auto;
+			margin-right: auto;
+
+
+			& > h2 {
+				font-size: 40px;
+			}
+		}
+
+		& > .slide-holder {
+			width: 1450px;
+			margin-left:auto;
+			margin-right: auto;
+
+			.slides {
+
+				.slide {
+
+					.img-holder {
+
+
+						& > img {
+							display: block;
+
+							&.sm {
+								width: 65px;
+							}
+
+							&.md {
+								width: 90px;
+							}
+
+							&.lg {
+								width: 130px;
+							}
+
+						}
+					}
+				}
+			}
+
+		}
+
+	}
 }
