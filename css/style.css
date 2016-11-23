@@ -1661,7 +1661,7 @@ body {
       left: 0;
       z-index: 30;
       width: 100%;
-      height: 80px;
+      height: auto;
       overflow: auto;
       background-color: transparent;
       transition: top 0.3s ease-out 0.3s; }
@@ -1670,14 +1670,16 @@ body {
       #top-section.up {
         top: 0; }
       #top-section .wrapper {
-        padding-right: 85px;
+        padding-right: 70px;
         padding-left: 85px;
         padding-top: 35px; }
         #top-section .wrapper .menu {
-          text-align: right; }
+          text-align: right;
+          float: right; }
           #top-section .wrapper .menu li {
-            display: inline;
-            margin-left: 30px; }
+            display: block;
+            margin-left: 30px;
+            float: left; }
             #top-section .wrapper .menu li:first-child {
               margin-left: 0; }
             #top-section .wrapper .menu li a {
