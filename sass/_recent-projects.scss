@@ -131,7 +131,8 @@
 			& > h2 {
 				width: 41.67%;
 				height: 100px;
-				font-size: 30px;
+				font-size: 29px;
+				letter-spacing: 0.6px;
 				span {
 					line-height: 100px;
 				}
@@ -149,8 +150,8 @@
 					display: inline-block;
 					color:white;
 					background-color: #eb3f3c;
-					padding-left: 40px;
-					padding-right: 40px;
+					padding-left: 35px;
+					padding-right: 35px;
 
 					&:hover {
 						text-decoration: none;
@@ -275,12 +276,12 @@
 	}//media md
 
 	@media (min-width:$screen-lg) {
-
+		margin-top: -83px;
 		.header-wrapper {
 			height: 140px;
 			& > h2 {
 				height:100%;
-				width: 46.33%;
+				width: 46.8%;
 
 				& > span {
 					padding-left: 85px;
@@ -292,8 +293,9 @@
 
 			.link-holder {
 				//width: 53.67%;
-				top:45px;
-				right:85px;
+				top:43px;
+				right:70px;
+				letter-spacing: 1px;
 			}
 		}//header-wraper
 

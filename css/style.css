@@ -1949,10 +1949,10 @@ header {
       padding-left: 85px;
       padding-right: 85px; }
       header .wrapper .logo-holder {
-        left: 85px;
+        left: 65px;
         top: 150px; }
         header .wrapper .logo-holder a {
-          width: 368px; }
+          width: 390px; }
       header .wrapper .header-content div:first-child {
         padding-top: 385px;
         padding-left: 0;
@@ -1960,15 +1960,20 @@ header {
         width: 48.2%; }
         header .wrapper .header-content div:first-child h2 {
           font-size: 65px;
-          line-height: 55px; }
+          line-height: 55px;
+          margin-bottom: 30px; }
         header .wrapper .header-content div:first-child p {
           font-size: 17px;
           line-height: 23px; }
+        header .wrapper .header-content div:first-child a {
+          margin-top: 35px;
+          padding-left: 43px;
+          padding-right: 43px; }
       header .wrapper .header-content div.photo-holder {
-        width: 51.8%;
-        padding-top: 40px;
+        width: 51.2%;
+        padding-top: 43px;
         padding-left: 0;
-        padding-right: 85px; }
+        padding-right: 90px; }
       header .wrapper .links-holder {
         right: 85px;
         top: 145px; } }
@@ -2061,7 +2066,8 @@ header {
         #recent-project .header-wrapper > h2 {
           width: 41.67%;
           height: 100px;
-          font-size: 30px; }
+          font-size: 29px;
+          letter-spacing: 0.6px; }
           #recent-project .header-wrapper > h2 span {
             line-height: 100px; }
         #recent-project .header-wrapper > .link-holder {
@@ -2083,8 +2089,8 @@ header {
             display: inline-block;
             color: white;
             background-color: #eb3f3c;
-            padding-left: 40px;
-            padding-right: 40px; }
+            padding-left: 35px;
+            padding-right: 35px; }
             #recent-project .header-wrapper > .link-holder a:hover {
               text-decoration: none; }
       #recent-project .wrapper-project-holder .project {
@@ -2152,18 +2158,21 @@ header {
             transition-delay: 0.6s;
             width: 100%; } }
   @media (min-width: 1280px) {
-    #recent-project .header-wrapper {
-      height: 140px; }
-      #recent-project .header-wrapper > h2 {
-        height: 100%;
-        width: 46.33%; }
-        #recent-project .header-wrapper > h2 > span {
-          padding-left: 85px;
-          line-height: 140px;
-          height: inherit; }
-      #recent-project .header-wrapper .link-holder {
-        top: 45px;
-        right: 85px; } }
+    #recent-project {
+      margin-top: -83px; }
+      #recent-project .header-wrapper {
+        height: 140px; }
+        #recent-project .header-wrapper > h2 {
+          height: 100%;
+          width: 46.8%; }
+          #recent-project .header-wrapper > h2 > span {
+            padding-left: 85px;
+            line-height: 140px;
+            height: inherit; }
+        #recent-project .header-wrapper .link-holder {
+          top: 43px;
+          right: 70px;
+          letter-spacing: 1px; } }
   @media (min-width: 1700px) {
     #recent-project .header-wrapper {
       height: 200px; }
