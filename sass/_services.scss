@@ -247,7 +247,7 @@
 
 
 			& > p {
-				margin-top: 35px;
+				margin-top: 50px;
 				padding-right: 85px;
 
 			}
@@ -255,13 +255,14 @@
 			.services-holder {
 				margin-top: 20px;
 				.srv {
-
+					margin-bottom: 0;
 					&:nth-child(odd){
 						padding-right: 20px;
 					}
 
 					&:nth-child(even){
 						padding-right: 20px;
+						padding-left: 0px;
 					}
 
 
@@ -275,10 +276,18 @@
 								line-height: 45px;
 								img {
 									vertical-align: middle;
+									position: relative;
+									top:-2px;
+									left:-2px;
 
 								}
 
 							}
+						}
+
+						.wrap {
+							position: relative;
+							top:-3px;
 						}
 
 

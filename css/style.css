@@ -2488,21 +2488,30 @@ div #about-me {
         padding-right: 0;
         height: 620px; }
         #services .wrapper > p {
-          margin-top: 35px;
+          margin-top: 50px;
           padding-right: 85px; }
         #services .wrapper .services-holder {
           margin-top: 20px; }
-          #services .wrapper .services-holder .srv:nth-child(odd) {
-            padding-right: 20px; }
-          #services .wrapper .services-holder .srv:nth-child(even) {
-            padding-right: 20px; }
-          #services .wrapper .services-holder .srv h4 {
-            height: 45px; }
-            #services .wrapper .services-holder .srv h4 > span:first-child {
-              height: 45px;
-              line-height: 45px; }
-              #services .wrapper .services-holder .srv h4 > span:first-child img {
-                vertical-align: middle; } }
+          #services .wrapper .services-holder .srv {
+            margin-bottom: 0; }
+            #services .wrapper .services-holder .srv:nth-child(odd) {
+              padding-right: 20px; }
+            #services .wrapper .services-holder .srv:nth-child(even) {
+              padding-right: 20px;
+              padding-left: 0px; }
+            #services .wrapper .services-holder .srv h4 {
+              height: 45px; }
+              #services .wrapper .services-holder .srv h4 > span:first-child {
+                height: 45px;
+                line-height: 45px; }
+                #services .wrapper .services-holder .srv h4 > span:first-child img {
+                  vertical-align: middle;
+                  position: relative;
+                  top: -2px;
+                  left: -2px; }
+              #services .wrapper .services-holder .srv h4 .wrap {
+                position: relative;
+                top: -3px; } }
   @media (min-width: 1700px) {
     #services {
       width: 57.1%;
