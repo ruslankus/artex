@@ -383,7 +383,7 @@ div {
 		}//screen-md
 
 		@media (min-width:$screen-lg) {
-			width: 46.33%;
+			width: 47%;
 			float: left;
 			padding-bottom: 0;
 			overflow: hidden;
@@ -393,6 +393,7 @@ div {
 					width: 100%;
 					border-width: 40px;
 					padding-top: 25px;
+					padding-left: 85px;
 				}
 
 				.description {
@@ -402,6 +403,8 @@ div {
 						overflow: hidden;
 						padding-left: 0;
 						padding-right: 0;
+						left:-7px;
+						top:-30px;
 						img {
 							display: block;
 							width: 240%;
@@ -413,7 +416,8 @@ div {
 
 
 					.text-holder {
-
+						padding-top: 5px;
+						padding-left:0;
 						p {
 
 							strong {
@@ -426,9 +430,9 @@ div {
 					.link-holder {
 
 						ul {
-
+							padding-left:0;
 							li {
-
+								margin-right:7px;
 
 								&:last-child {
 
@@ -443,7 +447,9 @@ div {
 
 
 						div {
-
+							margin-top: 25px;
+							padding-left: 0;
+							padding-right: 15px;
 							a {
 
 

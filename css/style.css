@@ -2330,7 +2330,7 @@ div #about-me {
             text-align: right; } }
   @media (min-width: 1280px) {
     div #about-me {
-      width: 46.33%;
+      width: 47%;
       float: left;
       padding-bottom: 0;
       overflow: hidden; }
@@ -2339,19 +2339,33 @@ div #about-me {
         div #about-me .wrapper h2 {
           width: 100%;
           border-width: 40px;
-          padding-top: 25px; }
+          padding-top: 25px;
+          padding-left: 85px; }
         div #about-me .wrapper .description {
           padding-left: 32.55%; }
           div #about-me .wrapper .description .photo-holder {
             width: 32.55%;
             overflow: hidden;
             padding-left: 0;
-            padding-right: 0; }
+            padding-right: 0;
+            left: -7px;
+            top: -30px; }
             div #about-me .wrapper .description .photo-holder img {
               display: block;
               width: 240%;
               position: relative;
-              right: 90%; } }
+              right: 90%; }
+          div #about-me .wrapper .description .text-holder {
+            padding-top: 5px;
+            padding-left: 0; }
+          div #about-me .wrapper .description .link-holder ul {
+            padding-left: 0; }
+            div #about-me .wrapper .description .link-holder ul li {
+              margin-right: 7px; }
+          div #about-me .wrapper .description .link-holder div {
+            margin-top: 25px;
+            padding-left: 0;
+            padding-right: 15px; } }
   @media (min-width: 1700px) {
     div #about-me {
       width: 42.9%; }
@@ -2466,7 +2480,7 @@ div #about-me {
         margin-right: 5px; } }
   @media (min-width: 1280px) {
     #services {
-      width: 53.67%;
+      width: 53%;
       float: right; }
       #services .wrapper {
         padding-left: 55px;
