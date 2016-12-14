@@ -204,38 +204,44 @@
 
 	@media (min-width:$screen-lg) {
 		padding-bottom: 60px;
+		padding-top: 30px;
 		clear:both;
 		&  > .header-wrapper {
-			width: 46.33%;
+			width: 47%;
 			h2 {
 				text-align: right;
 				padding-right: 55px;
+
+				& > span {
+					&:last-child {
+						text-align: left;
+					}
+				}
 
 			}
 		}// header -wrapper
 
 		& > .text-wrapper {
-			width: 53.67%;
+			width: 53%;
 			padding-left: 0;
-			&:last-child {
 
-				.text-holder {
 
-					p{
+			.text-holder {
 
-					}
+				p{
 
 				}
 
-
-				&:last-child {
-
-					& > a {
+			}
 
 
-					}
+			& > div:last-child {
+				margin-top:28px;
+				& > a {
+					margin-top: 0px;
 				}
-			}//last child
+			}
+
 
 		}
 

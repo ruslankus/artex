@@ -2493,12 +2493,13 @@ div #about-me {
         #services .wrapper .services-holder {
           margin-top: 20px; }
           #services .wrapper .services-holder .srv {
-            margin-bottom: 0; }
+            margin-bottom: 0;
+            padding-left: 4px; }
             #services .wrapper .services-holder .srv:nth-child(odd) {
               padding-right: 20px; }
             #services .wrapper .services-holder .srv:nth-child(even) {
               padding-right: 20px;
-              padding-left: 0px; }
+              padding-left: 2px; }
             #services .wrapper .services-holder .srv h4 {
               height: 45px; }
               #services .wrapper .services-holder .srv h4 > span:first-child {
@@ -2638,15 +2639,22 @@ div #about-me {
   @media (min-width: 1280px) {
     #all-services {
       padding-bottom: 60px;
+      padding-top: 30px;
       clear: both; }
       #all-services > .header-wrapper {
-        width: 46.33%; }
+        width: 47%; }
         #all-services > .header-wrapper h2 {
           text-align: right;
           padding-right: 55px; }
+          #all-services > .header-wrapper h2 > span:last-child {
+            text-align: left; }
       #all-services > .text-wrapper {
-        width: 53.67%;
-        padding-left: 0; } }
+        width: 53%;
+        padding-left: 0; }
+        #all-services > .text-wrapper > div:last-child {
+          margin-top: 28px; }
+          #all-services > .text-wrapper > div:last-child > a {
+            margin-top: 0px; } }
 
 /* Slider */
 .slick-slider {
