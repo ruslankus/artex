@@ -3132,7 +3132,8 @@ div #about-me {
     #triangle {
       height: 180px;
       padding: 0;
-      background: transparent url("/images/triangle.1700.jpg") bottom center no-repeat; }
+      background: transparent url("/images/triangle.1200.jpg") bottom center no-repeat;
+      background-size: 100% 180px; }
       #triangle > .wrapper {
         width: 100%;
         margin-left: 0px;
