@@ -33,6 +33,40 @@
 
 	}//media xs
 
+	@media (min-width:$screen-lg) {
+		height: 180px;
+		padding: 0;
+		background: transparent url("/images/triangle.1700.jpg") bottom center no-repeat;
+		& > .wrapper {
+			width: 100%;
+			margin-left:0px;
+			border-left: 0px solid transparent;
+			border-right: 0px solid transparent;
+
+			.read-more {
+				margin-top: 30px;
+				text-align: center;
+				display: block;
+				a{
+					@include botton-with-radius;
+					display: inline-block;
+					padding-left: 65px;
+					padding-right: 65px;
+
+					&:hover {
+						text-decoration: none;
+						background-color: #eb3e3b;
+						color: white;
+					}
+				}
+			}
+
+
+		}
+
+	}
+
+
 	@media (min-width:$screen-vb) {
 
 		margin-top: -90px;
