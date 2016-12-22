@@ -3037,12 +3037,41 @@ div #about-me {
   @media (min-width: 1280px) {
     #recent-news {
       padding-left: 85px;
-      padding-right: 85px; }
-      #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text h4 {
-        font-family: ProximaNova, sans-serif;
-        font-weight: 600;
-        font-size: 25px;
-        color: #eb3f3c; } }
+      padding-right: 85px;
+      padding-top: 50px; }
+      #recent-news .header-wrapper h2 {
+        text-align: center; }
+      #recent-news .content-wrapper {
+        width: 1095px;
+        margin-left: auto;
+        margin-right: auto; }
+        #recent-news .content-wrapper #carousel-news .carousel-inner .item {
+          height: 300px;
+          width: 350px;
+          padding: 25px 40px;
+          margin-left: 40px;
+          margin-right: 0px; }
+          #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-head div:first-child h5 {
+            line-height: 16px; }
+          #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-head div:first-child p {
+            margin-top: 5px;
+            line-height: 16px; }
+          #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text {
+            margin-top: 20px; }
+            #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text h4 {
+              font-family: ProximaNova, sans-serif;
+              font-weight: 600;
+              font-size: 25px;
+              color: #eb3f3c; }
+            #recent-news .content-wrapper #carousel-news .carousel-inner .item .item-text p {
+              margin-top: 10px;
+              line-height: 17px; }
+        #recent-news .content-wrapper #carousel-news .slick-dots {
+          bottom: -38px; }
+          #recent-news .content-wrapper #carousel-news .slick-dots li {
+            left: 20px; }
+      #recent-news .read-more {
+        margin-top: 30px; } }
   @media (min-width: 1700px) {
     #recent-news {
       padding-left: 0;

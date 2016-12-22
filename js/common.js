@@ -32,9 +32,10 @@ $(function() {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '10px',
+                    centerPadding: '0px',
                     slidesToShow: 2,
                     dots: true,
+                    variableWidth: true
                 }
             },
 

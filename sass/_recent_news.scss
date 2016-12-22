@@ -618,15 +618,18 @@
 	@media (min-width:$screen-lg) {
 		padding-left: 85px;
 		padding-right: 85px;
+		padding-top: 50px;
 		.header-wrapper {
 
 			h2 {
-
+				text-align: center;
 			}
 		}
 
 		.content-wrapper {
-
+			width: 1095px;
+			margin-left:auto;
+			margin-right:auto;
 
 			#carousel-news {
 
@@ -634,8 +637,11 @@
 
 
 					.item {
-
-
+						height: 300px;
+						width: 350px;
+						padding: 25px 40px;
+						margin-left: 40px;
+						margin-right: 0px;
 						.item-head {
 
 							div {
@@ -643,11 +649,12 @@
 								&:first-child {
 
 									h5 {
-
+										line-height: 16px;
 									}
 
 									p{
-
+										margin-top: 5px;
+										line-height: 16px;
 									}
 								}
 
@@ -668,14 +675,15 @@
 
 
 						.item-text {
-
+							margin-top: 20px;
 							h4 {
 								@include proxima_bold(25px);
 								color:#eb3f3c;
 							}
 
 							p {
-
+								margin-top: 10px;
+								line-height: 17px;
 							}
 						}
 
@@ -685,10 +693,21 @@
 				}//carousel-inner
 
 
+				.slick-dots {
+					bottom: -38px;
+
+					li {
+						left:20px
+					}
+				}
+
 
 			}//#carousel-news
 
+		}//content-wrapper
 
+		.read-more {
+			margin-top: 30px;
 		}
 
 	}//media lg
@@ -775,6 +794,7 @@
 
 				.slick-dots {
 					position: relative;
+
 
 
 				}
