@@ -3,7 +3,7 @@
 <project name="MonoMobi" default="build" basedir=".">
 
     <target name="setup">
-        <property name="home.dir" value="/var/www/html" />
+        <property name="home.dir" value="/var/www" />
         <echo message="Home dir: ${home.dir}" />
 
         <php function="date" returnProperty="current.time">
@@ -11,7 +11,7 @@
         </php>
         <echo message="Current time: ${current.time}" />
 
-        <resolvepath propertyName="current.dir" file="${home.dir}/qa.prophp/${build.branch}/${current.time}" />
+        <resolvepath propertyName="current.dir" file="${home.dir}/artex/${build.branch}/${current.time}" />
         <echo message="Current dir: ${current.dir}" />
     </target>
 
@@ -27,7 +27,7 @@
       </target>
 
     <target name="symlink">
-        <symlink link="${home.dir}/qa.prophp/${build.branch}/current" target="${current.dir}" overwrite="true" />
+        <symlink link="${home.dir}/artex/${build.branch}/current" target="${current.dir}" overwrite="true" />
     </target>
 
     <target name="build" depends="setup, copy, symlink"></target>
