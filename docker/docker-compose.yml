@@ -1,0 +1,10 @@
+version: '2'
+services:
+
+    artexHtml:
+        image: ruslankus/apache:v1
+        ports:
+            - "80:80"
+        volumes:
+            - "../:/var/www/site"
+        restart: always
